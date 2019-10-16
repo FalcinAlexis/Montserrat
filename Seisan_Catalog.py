@@ -4,11 +4,13 @@ import datetime
 import pprint
 import numpy as np
 import sys, glob, obspy.core
-#SEISAN_DATA_ROOT = ""
+SEISAN_DATA = os.environ['SEISAN_DATA']
+if not SEISAN_DATA:
+    SEISAN_DATA = "./seismo"
 
 def event_list(startdate,enddate):
     event_list=[]
-    reapath = os.path.join(SEISAN_DATA_ROOT, 'REA', DB)
+    reapath = os.path.join(SEISAN_DATA, 'REA', DB)
     years=list(range(startdate.year,enddate.year+1))
     for year in years:
         #print year
@@ -41,13 +43,17 @@ def cat(path):
     return str
 
 def generate_monthly_csv(mm):
+    print("Reading %s" % mm)
     sfileslist = sorted(glob.glob(os.path.join(mm, "*")))
     outfile = mm[-13:-8] + 'catalog' + mm[-7:-3] + mm[-2:] + '.csv'
     print("...Creating %s" % outfile)
-    fptr = open(outfile,'w+')
+    if os.path.exists(outfile):
+        print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
+        return
+    fptr = open(outfile,'w')
     fptr.write('datetime, mainclass, subclass, duration, wavfilepath, sampling_rate, npts, traceNum, traceID, sfilepath\n') 
     for thissfile in sfileslist:
-        print(thissfile)
+        #print(thissfile)
         s = Sfile(thissfile)
         #print(s)
         numwavfiles = len(s.wavfiles)
@@ -57,7 +63,10 @@ def generate_monthly_csv(mm):
             for thiswavfile in s.wavfiles:
                 if not os.path.exists(thiswavfile.path):
                     continue
-                st = obspy.read(thiswavfile.path)
+                try:
+                    st = obspy.read(thiswavfile.path)
+                except:
+                    print("Processing %s: Cannot read wavfile %s" % (thissfile, thiswavfile.path,) )
                 tracenum = 0
                 for tr in st:
                      duration = tr.stats.npts / tr.stats.sampling_rate
@@ -75,17 +84,18 @@ class Sfile:
 
     def __init__(self, path):
         mytup = path.split("REA/")
+        global SEISAN_DATA
         if len(mytup)>1:
-           SEISAN_DATA_ROOT = mytup[0]
+           SEISAN_DATA = mytup[0]
            mytup2=mytup[1].split('/')
            DB=mytup2[0]
         else:
-           SEISAN_DATA_ROOT = "."
-        if SEISAN_DATA_ROOT[0]!='/' and SEISAN_DATA_ROOT[0]!='.':
-            SEISAN_DATA_ROOT = './' + SEISAN_DATA_ROOT
-        if SEISAN_DATA_ROOT[-1]=="/":
-            SEISAN_DATA_ROOT = SEISAN_DATA_ROOT[0:-1]
-        #print(SEISAN_DATA_ROOT)
+           SEISAN_DATA = "."
+        if SEISAN_DATA[0]!='/' and SEISAN_DATA[0]!='.':
+            SEISAN_DATA = './' + SEISAN_DATA
+        if SEISAN_DATA[-1]=="/":
+            SEISAN_DATA = SEISAN_DATA[0:-1]
+        #print(SEISAN_DATA)
         # Initialize optional variable to NULLs
         self.otime = None # origin time, a datetime
         self.mainclass = None
@@ -157,7 +167,8 @@ class Sfile:
                             _aeffiles.append(path)
 
             if len(line) < 80:
-                print(line + " - IGNORED")
+                if len(line.strip()) > 0:
+                    print("Processing %s: ignoring this line: %s" % (path, line, ) )
                 continue
 
             if line[79] == '1':
@@ -199,11 +210,22 @@ class Sfile:
                     #self.magnitude_type.append(magtype_map[line[59]])
                     self.magnitude_type.append(line[59])
                     self.magnitude_agency.append(line[60:63].strip())
-                if line[63:67] != '    ':
-                    self.magnitude.append(float(line[63:67]))
-                    #self.magnitude_type.append(magtype_map[line[67]])
-                    self.magnitude_type.append(line[67])
-                    self.magnitude_agency.append(line[68:71].strip())
+                if line[63:67].strip():
+                    
+                    print(line[63:67])
+                    try:
+
+                        self.magnitude.append(float(line[63:67]))
+                        #self.magnitude_type.append(magtype_map[line[67]])
+                        self.magnitude_type.append(line[67])
+                        self.magnitude_agency.append(line[68:71].strip())
+                    except:
+                        print("Processing %s" %(path,) )
+                        print(line)
+                        print(self.magnitude)
+                        print(self.magnitude_type)
+                        print(self.magnitude_agency)
+                        print("There probably was not a second magnitude")
                 if line[71:75] != '    ':
                     self.magnitude.append(float(line[71:75]))
                     #self.magnitude_type.append(magtype_map[line[75]])
@@ -235,7 +257,7 @@ class Sfile:
                 wavfiles = line[1:79].split()
                 #wavfile = line[1:36]
                 for wavfile in wavfiles:
-                    wavfullpath = "%s/WAV/%s/%04d/%02d/%s" % (SEISAN_DATA_ROOT, DB, self.year, self.month, wavfile)
+                    wavfullpath = "%s/WAV/%s/%04d/%02d/%s" % (SEISAN_DATA, DB, self.year, self.month, wavfile)
                     self.wavfiles.append(Wavfile(wavfullpath))
                     # for each wavfile there is 0 or 1 AEFfile
                     aeffullpath = wavfullpath.replace('WAV', 'AEF')
@@ -543,31 +565,9 @@ class AEFfile:
         return None
 
 if __name__ == "__main__":
-
-    SEISAN_DATA_ROOT = os.path.join("/raid", "data", "seisan")
-    DB = "MVOE_"
-    sfilelist = [ 
-                    '/raid/data/seisan/REA/MVOE_/2002/01/09-1204-48L.S200201', 
-                    '/raid/data/seisan/REA/MVOE_/1996/11/30-1254-26L.S199611', 
-                    '/raid/data/seisan/REA/MVOE_/1996/11/30-1254-26L.S199611', 
-                    '/raid/data/seisan/REA/MVOE_/2000/05/16-2339-12L.S200005', 
-                    '/raid/data/seisan/REA/MVOE_/1997/10/11-2228-03L.S199710',
-                    '/raid/data/seisan/REA/MVOE_/1996/12/24-2103-55R.S199612',
-                    '/raid/data/seisan/REA/MVOE_/1996/12/01-0138-00R.S199612' 
-                ]
-
-    for path in sfilelist:
-
-        # load an Sfile into a Sfile object
-        s1 = Sfile(path)
-
-        # show the file
-        s1.cat() # cat(s1.path) would also work
-
-        # print the object
-        print(s1)
-    
-        # export to ObsPy event object
-        #e = s1.to_css()
-        #print e
+    pass
+    # could read in Sfiles then 
+    # export to ObsPy event object
+    #e = s1.to_css()
+    #print e
 
