@@ -1,5 +1,4 @@
-#!/Users/thompsong/miniconda3/bin/python
-# /Users/thompsong/src/volcanoObsPy/SEISAN/seisandb2csv.py
+#!/usr/bin/env python
 # Traverses a Seisan database structure by REA/year/month finding all the S-files and
 # corresponding WAV files, and generates a summary line for each trace.
 # Will generate nothing for an Sfile for which no corresponding WAVfile found
