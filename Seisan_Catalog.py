@@ -49,7 +49,7 @@ def generate_monthly_csv(mm):
         print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
         return
     fptr = open(outfile,'w')
-    fptr.write('datetime, mainclass, subclass, duration, wavfilepath, sampling_rate, npts, traceNum, traceID, sfilepath\n') 
+    fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath\n') 
     for thissfile in sfileslist:
         #print(thissfile)
         s = Sfile(thissfile)
