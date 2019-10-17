@@ -1,19 +1,12 @@
-#!/Users/thompsong/miniconda3/bin/python
-# /Users/thompsong/src/volcanoObsPy/SEISAN/seisandb2csv.py
+#!/usr/bin/env python
 # Traverses a Seisan database structure by REA/year/month finding all the S-files and
 # corresponding WAV files, and generates a summary line for each trace.
+#
 # Will generate nothing for an Sfile for which no corresponding WAVfile found
 # Output files are like DBNAMEcatalogYYYYMM.csv
-# These should be readable into Python dataframes
-# They can also easily be manipulated with grep and awk, e.g.
-# 1. Only print 4th column:
-#    awk -F',' '{print $4}' MVOE_catalog*.csv
-# 2. Only show 5th column for station MBWH
-#    grep MWBH MVOE_catalog*.csv | awk -F',' '{print $5}'
-#import os, sys, glob, obspy.core
+#
+# These will later be read into Python dataframes
 import sys, glob, os
-sys.path.insert(1, '/Users/thompsong/src/volcanoObsPy/SEISAN')
-import Seisan_Catalog
 SEISAN_DATA = os.environ["SEISAN_DATA"]
 if not SEISAN_DATA:
     SEISAN_DATA = "./seismo"
