@@ -7,6 +7,7 @@
 #
 # These will later be read into Python dataframes
 import sys, glob, os
+import Seisan_Catalog
 SEISAN_DATA = os.environ["SEISAN_DATA"]
 if not SEISAN_DATA:
     SEISAN_DATA = "./seismo"

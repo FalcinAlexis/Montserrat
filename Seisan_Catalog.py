@@ -52,7 +52,11 @@ def generate_monthly_csv(mm):
     fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath\n') 
     for thissfile in sfileslist:
         #print(thissfile)
-        s = Sfile(thissfile)
+        try:
+            s = Sfile(thissfile)
+        except:
+            print('Failed to load %s. Check this later' % thissfile)
+            continue
         #print(s)
         numwavfiles = len(s.wavfiles)
         if not s.subclass:
@@ -65,6 +69,7 @@ def generate_monthly_csv(mm):
                     st = obspy.read(thiswavfile.path)
                 except:
                     print("Processing %s: Cannot read wavfile %s" % (thissfile, thiswavfile.path,) )
+                    continue
                 tracenum = 0
                 for tr in st:
                      duration = tr.stats.npts / tr.stats.sampling_rate
