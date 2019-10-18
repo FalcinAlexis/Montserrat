@@ -1,4 +1,4 @@
-#!/Users/thompsong/miniconda3/bin/python
+#!/usr/bin/env python
 import os
 import datetime
 import pprint
@@ -13,7 +13,6 @@ def event_list(startdate,enddate):
     reapath = os.path.join(SEISAN_DATA, 'REA', DB)
     years=list(range(startdate.year,enddate.year+1))
     for year in years:
-        #print year
         if year==enddate.year and year==startdate.year:
             months=list(range(startdate.month,enddate.month+1))
         elif year==startdate.year:
@@ -25,7 +24,6 @@ def event_list(startdate,enddate):
         for month in months:
             #print month
             dir=os.path.join(reapath, "%04d" % year, "%02d" % month)
-            #print dir
             flist=glob(os.path.join(dir,"*L.S*"))
             event_list.extend(flist)
     return event_list 
@@ -51,7 +49,7 @@ def generate_monthly_csv(mm):
         print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
         return
     fptr = open(outfile,'w')
-    fptr.write('datetime, mainclass, subclass, duration, wavfilepath, sampling_rate, npts, traceNum, traceID, sfilepath\n') 
+    fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath\n') 
     for thissfile in sfileslist:
         #print(thissfile)
         s = Sfile(thissfile)
