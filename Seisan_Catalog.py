@@ -49,7 +49,7 @@ def generate_monthly_csv(mm):
         print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
         return
     fptr = open(outfile,'w')
-    fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath\n') 
+    fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepathi,analyst\n') 
     for thissfile in sfileslist:
         #print(thissfile)
         try:
@@ -73,11 +73,11 @@ def generate_monthly_csv(mm):
                 tracenum = 0
                 for tr in st:
                      duration = tr.stats.npts / tr.stats.sampling_rate
-                     fptr.write("%s,%s,%s,%8.3f,%s,%3d,%6d,%02d,%s,%s\n" % (s.filetime, s.mainclass, \
+                     fptr.write("%s,%s,%s,%8.3f,%s,%3d,%6d,%02d,%s,%s,%s\n" % (s.filetime, s.mainclass, \
                          s.subclass, duration, \
                          thiswavfile.path, \
                          tr.stats.sampling_rate, tr.stats.npts, \
-                         tracenum, tr.id, thissfile ))
+                         tracenum, tr.id, thissfile, s.analyst ))
                      tracenum += 1
     fptr.close()
 
