@@ -1,9 +1,17 @@
 #!/usr/bin/env python
+#import obspy
+#import matplotlib.pyplot as plt
+#import numpy as np
+#from CheckFunctions import *
 import os
-import datetime
+#import datetime
 import pprint
 import numpy as np
 import sys, glob, obspy.core
+import pandas as pd
+import csv
+from datetime import date, timedelta
+
 SEISAN_DATA = os.environ['SEISAN_DATA']
 if not SEISAN_DATA:
     SEISAN_DATA = "./seismo"
@@ -40,16 +48,22 @@ def cat(path):
         pass
     return str
 
-def generate_monthly_csv(mm):
+def generate_monthly_csv(mm, flag_sfiles_only=False):
     print("Reading %s" % mm)
     sfileslist = sorted(glob.glob(os.path.join(mm, "*")))
-    outfile = mm[-13:-8] + 'catalog' + mm[-7:-3] + mm[-2:] + '.csv'
+    if flag_sfiles_only:
+        outfile = mm[-13:-8] + 'sfiles' + mm[-7:-3] + mm[-2:] + '.csv'
+    else:
+        outfile = mm[-13:-8] + 'catalog' + mm[-7:-3] + mm[-2:] + '.csv'
     print("...Creating %s" % outfile)
     if os.path.exists(outfile):
         print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
         return
     fptr = open(outfile,'w')
-    fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepathi,analyst\n') 
+    if flag_sfiles_only:
+        fptr.write('datetime,mainclass,subclass,sfilepathi,analyst,wavfile1,wavfile2\n') 
+    else:
+        fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepathi,analyst\n') 
     for thissfile in sfileslist:
         #print(thissfile)
         try:
@@ -59,9 +73,23 @@ def generate_monthly_csv(mm):
             continue
         #print(s)
         numwavfiles = len(s.wavfiles)
+        tmp = thissfile.split('REA')
+        shortsfile = 'REA' + tmp[1] 
         if not s.subclass:
             s.subclass = "_"
-        if numwavfiles > 0:
+        if flag_sfiles_only:
+            wavfile1 = "-"
+            wavfile2 = "-"
+            if numwavfiles>0:
+                tmp = s.wavfiles[0].path.split('WAV')
+                wavfile1 = 'WAV' + tmp[1]
+            if numwavfiles>1:
+                tmp = s.wavfiles[1].path.split('WAV')
+                wavfile2 = 'WAV' + tmp[1]
+            fptr.write("%s,%s,%s,%s,%s,%s,%s\n" % (s.filetime, s.mainclass, \
+                s.subclass, \
+                thissfile, s.analyst, wavfile1, wavfile2 ))
+        else:
             for thiswavfile in s.wavfiles:
                 if not os.path.exists(thiswavfile.path):
                     continue
@@ -71,14 +99,17 @@ def generate_monthly_csv(mm):
                     print("Processing %s: Cannot read wavfile %s" % (thissfile, thiswavfile.path,) )
                     continue
                 tracenum = 0
+                tmp = thiswavfile.path.split('WAV')
+                wavfile1 = 'WAV' + tmp[1]
                 for tr in st:
                      duration = tr.stats.npts / tr.stats.sampling_rate
                      fptr.write("%s,%s,%s,%8.3f,%s,%3d,%6d,%02d,%s,%s,%s\n" % (s.filetime, s.mainclass, \
                          s.subclass, duration, \
-                         thiswavfile.path, \
+                         wavfile1, \
                          tr.stats.sampling_rate, tr.stats.npts, \
-                         tracenum, tr.id, thissfile, s.analyst ))
+                         tracenum, tr.id, shortsfile, s.analyst ))
                      tracenum += 1
+            
     fptr.close()
 
 
@@ -566,6 +597,107 @@ class AEFfile:
     def cat(self):
         print(cat(self.path))
         return None
+
+
+def sfilecsv_daycount(list_of_csv_files):
+
+    # Combine all the CSV files, and then summarize
+    print('\n*************************')
+    print('**** Overall summary ****')
+    frames = []
+    for csvfile in list_of_csv_files:
+        df = pd.read_csv(csvfile)
+        df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('(', '').str.replace(')', '')
+        if not isinstance(frames, pd.DataFrame):
+            frames = df
+        else:
+            df = df.reset_index(drop=True)
+        frames = pd.concat([frames, df], axis=0)
+
+    # how many of each mainclass?
+    class_hash = frames.mainclass.value_counts()
+    for ck in class_hash.keys():
+        print(ck,class_hash[ck], end=' ')
+    print(' ')
+
+    # how many of each subclass?
+    subclass_hash = frames.subclass.value_counts()
+    for sk in subclass_hash.keys():
+        print(sk,subclass_hash[sk], end=' ')
+    print(' ')
+
+    # how many by each analyst?
+    analyst_hash = frames.analyst.value_counts()
+    for ak in analyst_hash.keys():
+        print(ak,analyst_hash[ak], end=' ')
+    print(' ')
+
+    print('***********************\n')
+
+    # Now create the day summary dataframes
+    # What we really want to do here is build a CSV file that contains date, and number of each mainclass and subclass for that date
+    # use mainclass and subclass from above
+    
+    # create a new dataframe to do daily counts of eventtype
+    cols = ['date']
+    for ck in class_hash.keys():
+        cols.append(ck)
+    for sk in subclass_hash.keys():
+        cols.append(sk)
+    #eventtype_df = pd.DataFrame(columns=['date','D','R','LV','r','e','l','h','t'])
+    eventtype_df = pd.DataFrame(columns=cols)
+    eventtype_df.set_index('date',inplace=True)
+
+    # create a new dataframe to do daily counts by analyst
+    cols2 = ['date']
+    for ak in analyst_hash.keys():
+        cols2.append(ak)
+    analyst_df = pd.DataFrame(columns=cols2)
+    analyst_df.set_index('date',inplace=True)
+
+    for csvfile in list_of_csv_files:
+
+        # read CSV into dataframe
+        df = pd.read_csv(csvfile)
+        # simplify column names to lowercase and no space
+        df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('(', '').str.replace(')', '')
+
+        if len(df.mainclass.unique()): # number of mainclasses must be >0
+
+            yyyy = int(csvfile[11:15])
+            mm = int(csvfile[15:17])
+            start_date = date(yyyy, mm, 1)
+            end_date = date(yyyy, mm+1, 1)
+            delta = timedelta(days=1)
+            while start_date < end_date: # loop over all days in this month
+                yyyymmdd = start_date.strftime("%Y%m%d")
+                sfiledatetime = pd.to_datetime(df.datetime)
+                daycat = df.loc[sfiledatetime.dt.date == start_date] # get rows just for this day
+                dayclass_hash = daycat.mainclass.value_counts() # mainclasses for this day
+                daysubclass_hash = daycat.subclass.value_counts() # subclasses for this day
+                dayanalyst_hash = daycat.analyst.value_counts() # analysts for this day
+                # now go through the mainclass and subclass hashes from the overall summary, and make into a new dataframe here
+                for ck in class_hash.keys():
+                    if ck in dayclass_hash:
+                        eventtype_df.at[yyyymmdd, ck] = dayclass_hash[ck] 
+                    else:
+                        eventtype_df.at[yyyymmdd, ck] = 0
+                for sk in subclass_hash.keys():
+                    if sk in daysubclass_hash:
+                        eventtype_df.at[yyyymmdd, sk] = daysubclass_hash[sk] 
+                    else:
+                        eventtype_df.at[yyyymmdd, sk] = 0
+                for ak in analyst_hash.keys():
+                    if ak in dayanalyst_hash:
+                        analyst_df.at[yyyymmdd, ak] = dayanalyst_hash[ak] 
+                    else:
+                        analyst_df.at[yyyymmdd, ak] = 0
+                
+                start_date += delta # add a day
+        #nrows, ncolumns = df.shape
+    print(eventtype_df)
+    print(analyst_df)
+    return eventtype_df, analyst_df
 
 if __name__ == "__main__":
     pass
