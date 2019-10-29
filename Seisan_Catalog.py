@@ -1,10 +1,5 @@
 #!/usr/bin/env python
-#import obspy
-#import matplotlib.pyplot as plt
-#import numpy as np
-#from CheckFunctions import *
 import os
-#import datetime
 import pprint
 import numpy as np
 import sys, glob, obspy.core

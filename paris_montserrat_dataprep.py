@@ -19,6 +19,7 @@ import glob
 import shutil
 import obspy.core.utcdatetime as utcdt
 #import scipy.stats as scistats
+import trace_quality_control
 
 
 def sfilename(wavfile):
@@ -34,72 +35,6 @@ def sfilename(wavfile):
     sbase = dd + "-" + HH + MI + "-" + SS + "L.S" + yyyy + mm
     sfile = os.path.join(spath, sbase)
     return sfile
-
-def signaltonoise(tr):
-    # Here we just make an estimate of the signal-to-noise ratio
-    #
-    # Normally the trace should be pre-processed before passing to this routine, e.g.
-    # * remove ridiculously large values
-    # * remove any sequences of 0 from start or end
-    # * detrend
-    # * bandpass filter
-    #
-    # Processing:
-    #    1. ensure we still have at least 10 seconds
-    #    2. take absolute values
-    #    3. compute the maximum of each 1-s of data, call this time series M
-    #    4. compute 95th and 5th percentile of M, call these M95 and M5
-    #    5. estimate signal-to-noise ratio as M95/M5
-    
-    highval = -1
-    lowval = -1
-    snr = -1 
-    a = tr.data
-
-    fsamp = int(tr.stats.sampling_rate)
-    npts = tr.stats.npts
-    numseconds = int(npts/fsamp)
-    if numseconds > 10:
-        a = a[0:int(fsamp * numseconds - 1)]             # remove any fractional second from end of trace
-        abs = np.absolute(a)                             # take absolute value of a        
-        abs_resize = np.resize(abs, (fsamp, numseconds)) # resize so that each second is one row
-        M = np.max(abs_resize,axis=0)                    # find max of each second / row
-        highval = np.nanpercentile(M,95)                    # set highval to 95th percentile, to represent signal amplitude
-        if highval < 1:
-            highval = -1
-            return (snr, highval, lowval)
-        lowval = np.nanpercentile(M,5)                      # set lowval to 5th percentile, to represent noise amplitude
-        snr = highval / lowval
-        print(abs_resize.shape)
-        print(M.shape)
-    return (snr, highval, lowval,)
-
-def compute_metrics(tr, antelopetop):
-    # Here we compute simple metrics on each trace and write them to NET.STA.CHAN files. 
-    # These metrics are:
-    #     1. duration of signal
-    #     2. signal amplitude
-    #     3. noise amplitude
-    #     4. signal-to-noise ratio
-
-    duration = tr.stats.npts /  tr.stats.sampling_rate
-    snr = signaltonoise(tr)
-    print(snr)
-    #dummy = input('any to continue')
-    if snr[0] <= 1:
-        return False
-
-    starttime = tr.stats['starttime']
-    fdir = os.path.join(antelopetop, 'stats', starttime.strftime('%Y/%m') ) 
-    if not os.path.exists(fdir):
-        os.makedirs(fdir)
-    fname = os.path.join(fdir, tr.id + '.txt')
-    print('Appending to %s' % fname)
-    fileptr = open(fname,'a')
-    fileptr.write('%s\t%7.2f\t%9d\t%9d\t%7.2f\n' % (starttime.strftime('%Y-%m-%d %H:%M:%S'),duration,snr[1], snr[2], snr[0],)) 
-    fileptr.close()
-    return True
-
 
 def multiTraceSeisan2singleTraceMiniseed(PROJECT_TOP, file, antelopetop, db, flag_compute_metrics, last_endtime ):
     try:
@@ -123,76 +58,20 @@ def multiTraceSeisan2singleTraceMiniseed(PROJECT_TOP, file, antelopetop, db, fla
         pixels_high = len(st) * 100 + 50
         st.plot(size=(pixels_wide,pixels_high),outfile=pngpath,equal_scale=False)
 
-    num_nonzero_traces = 0
+    num_nonzero_traces = 0.0
     for tr in st:
+        (tr, quality_factor, snr) = compute_metrics(tr)
 
-        # ignore blank trace
-        anyData = np.count_nonzero(tr.data)
-        if anyData==0:
-            continue 
-
-############### PRE-PROCESSING #################       
-        # remove absurdly large values
-        AMP_LIMIT = 10000000
-        a = tr.data
-        np.clip(a, -AMP_LIMIT, AMP_LIMIT, out=a)
-        np.where(a == AMP_LIMIT, 0, a)
-        tr.data = a
-
-        # For some SEISAN files from Montserrat - possibly from SEISLOG conversion,
-        # the last value in the time series was always some absurdly large value
-        # This sections was to change last value to be the mean of the rest
-        #a = tr.data
-        #a = np.delete(a,[np.size(a) - 1])
-        #m = np.mean(a)
-        #tr.data[-1] = m
-
-        # remove linear trend
-        tr.detrend(type='linear')
-
-
-############### FIX NET, STA, LOC, CHAN CODES ###
-        # fix the network, channel and location
-        network = 'MV'
-        tr.stats['network']=network
-        sta = tr.stats['station'].strip()
-        chan = tr.stats['channel'].strip()
-        if chan=='PRS' or chan=='APS':
-            chan='BDF'
-        else:
-            if chan[0]=='A':
-                if tr.stats['location'] == 'J':
-                    bandcode = 'S'
-                #else:
-                    #bandcode = 'B'
-            else:
-                if chan[1]=='B':
-                    bandcode = 'B'
-                else:
-                    bandcode = chan[0]
-                instrumentcode = 'H'
-                if len(chan)==2:
-                    orientationcode = tr.stats['location']
-                else:
-                    orientationcode = chan[2]
-
-                chan = bandcode + instrumentcode + orientationcode
-
-        if chan[0]=='A':
-            print(tr.stats)
-            print(chan)
-            sys.exit('bugger!')
-        tr.stats['channel'] = chan
-        tr.stats['location']='--'
-
-############### COMPUTE METRICS #################
-
-        # Now high-pass filter, plot and compute_metrics on each trace
-        tr.filter('highpass', freq=0.5, corners=2, zerophase=True)
-        if flag_compute_metrics:
-            flag_trace_okay = compute_metrics(tr, antelopetop)
-            if not flag_trace_okay:
-                next
+        # write metrics about this trace to a CSV file
+        starttime = tr.stats['starttime']
+        fdir = os.path.join(antelopetop, 'stats', starttime.strftime('%Y/%m') ) 
+        if not os.path.exists(fdir):
+            os.makedirs(fdir)
+        fname = os.path.join(fdir, tr.id + '.txt')
+        print('Appending to %s' % fname)
+        fileptr = open(fname,'a')
+        fileptr.write('%s,%7.2f,%3.1f,%9d,%9d,%7.2f\n' % (starttime.strftime('%Y-%m-%d %H:%M:%S'),duration,quality_factor,snr[1], snr[2], snr[0],)) 
+        fileptr.close()
 
 ############## WRITE SINGLE TRACES TO FILE ######
 
@@ -237,8 +116,8 @@ def multiTraceSeisan2singleTraceMiniseed(PROJECT_TOP, file, antelopetop, db, fla
             pixels_wide = (duration * 10) * 1.25
             tr.plot(size=(pixels_wide,300),outfile=pngpath)
 
-        # Another good trace if we got this far 
-        num_nonzero_traces += 1
+        # Sum quality factor to get number of good traces for this event
+        num_nonzero_traces += quality_factor
 
     # Log number of good traces for this event
     f = open(os.path.join(PROJECT_TOP,'num_good_traces.txt'),"a")
@@ -248,8 +127,7 @@ def multiTraceSeisan2singleTraceMiniseed(PROJECT_TOP, file, antelopetop, db, fla
     f.close()
     return this_endtime
 
-def swap32(i):
-    return struct.unpack("<i", struct.pack(">i", i))[0]
+
 
 def main():
     PROJECT_TOP = '/Users/thompsong/Desktop/IPGP_Thompson_collaboration'

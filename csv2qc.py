@@ -3,7 +3,7 @@ import csv
 import obspy
 import matplotlib.pyplot as plt
 import numpy as np
-from CheckFunctions import *
+from trace_quality_control import *
 import os
 import glob
 
