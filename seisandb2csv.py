@@ -21,7 +21,8 @@ if not SEISAN_DB:
     SEISAN_DB = "MVOE_"
 
 yyyylist = sorted(glob.glob(os.path.join(SEISAN_DATA, 'REA', SEISAN_DB, '????')))
-flag_sfiles_only = True
+#flag_sfiles_only = True
+flag_sfiles_only = False
 for yyyy in yyyylist:
     mmlist = sorted(glob.glob(os.path.join(yyyy, '??')))
     for mm in mmlist:

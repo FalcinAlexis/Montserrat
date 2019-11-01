@@ -5,8 +5,8 @@ import numpy as np
 import sys, glob, obspy.core
 import pandas as pd
 import csv
-from datetime import date, timedelta
-
+#from datetime import date, timedelta
+import datetime as dt
 SEISAN_DATA = os.environ['SEISAN_DATA']
 if not SEISAN_DATA:
     SEISAN_DATA = "./seismo"
@@ -48,6 +48,7 @@ def generate_monthly_csv(mm, flag_sfiles_only=False):
     sfileslist = sorted(glob.glob(os.path.join(mm, "*")))
     if flag_sfiles_only:
         outfile = mm[-13:-8] + 'sfiles' + mm[-7:-3] + mm[-2:] + '.csv'
+        hypofile = mm[-13:-8] + 'hypo' + mm[-7:-3] + mm[-2:] + '.csv'
     else:
         outfile = mm[-13:-8] + 'catalog' + mm[-7:-3] + mm[-2:] + '.csv'
     print("...Creating %s" % outfile)
@@ -56,17 +57,38 @@ def generate_monthly_csv(mm, flag_sfiles_only=False):
         return
     fptr = open(outfile,'w')
     if flag_sfiles_only:
-        fptr.write('datetime,mainclass,subclass,sfilepathi,analyst,wavfile1,wavfile2\n') 
+        fptr.write('datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration\n') 
     else:
-        fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepathi,analyst\n') 
+        fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath,analyst\n') 
     for thissfile in sfileslist:
-        #print(thissfile)
-        try:
-            s = Sfile(thissfile)
-        except:
-            print('Failed to load %s. Check this later' % thissfile)
-            continue
-        #print(s)
+        s = Sfile(thissfile)
+        if not np.isnan(s.latitude) and flag_sfiles_only:
+            if not s.longitude:
+                s.longitude = float('nan')
+            if not s.depth:
+                s.depth = float('nan')
+            # write to hypo file
+            hfptr = open(hypofile,'a+')
+            if not os.path.exists(hypofile):
+                hfptr.write('datetime,mainclass,subclass,latitude,longitude,depth,magnitude,magnitude_type,sfilepath\n') 
+            if len(s.magnitude)>0:
+                magnitude = s.magnitude[0]
+                magnitude_type = s.magnitude_type[0]
+            else:
+                magnitude = float('nan')
+                magnitude_type = ""
+            try:
+                hfptr.write("%s,%s,%s,%9.4f,%9.4f,%6.1f,%4.1f,%s,%s\n" % (s.filetime, s.mainclass, \
+                    s.subclass, \
+                    s.latitude, s.longitude, s.depth, magnitude, magnitude_type, \
+                    thissfile ))
+            except:
+                print(s.latitude)
+                print(s.longitude)
+                print(s.depth)
+                print(magnitude)
+                barf
+            hfptr.close()
         numwavfiles = len(s.wavfiles)
         tmp = thissfile.split('REA')
         shortsfile = 'REA' + tmp[1] 
@@ -81,9 +103,25 @@ def generate_monthly_csv(mm, flag_sfiles_only=False):
             if numwavfiles>1:
                 tmp = s.wavfiles[1].path.split('WAV')
                 wavfile2 = 'WAV' + tmp[1]
-            fptr.write("%s,%s,%s,%s,%s,%s,%s\n" % (s.filetime, s.mainclass, \
-                s.subclass, \
-                thissfile, s.analyst, wavfile1, wavfile2 ))
+            if len(s.aeffiles)>0:
+                duration = s.aeffiles[0].trigger_window
+            else:
+                duration = 0.0
+            if not duration:
+                duration = 0.0
+
+            try:
+                fptr.write("%s,%s,%s,%s,%s,%s,%s,%2d,%1d,%2d,%5.1f\n" % (s.filetime, s.mainclass, \
+                    s.subclass, \
+                    thissfile, s.analyst, wavfile1, wavfile2, \
+                    len(s.arrivals), len(s.magnitude), len(s.aefrows), duration  ))
+            except:
+                print(len(s.arrivals))
+                print(len(s.magnitude))
+                print(len(s.aefrows))
+                print(duration)
+                barf
+
         else:
             for thiswavfile in s.wavfiles:
                 if not os.path.exists(thiswavfile.path):
@@ -128,9 +166,9 @@ class Sfile:
         # Initialize optional variable to NULLs
         self.otime = None # origin time, a datetime
         self.mainclass = None
-        self.latitude = None
-        self.longitude = None
-        self.depth = None
+        self.latitude = float('nan')
+        self.longitude = float('nan')
+        self.depth = float('nan')
         self.z_indicator = None
         self.agency = None
         self.no_sta = None
@@ -165,13 +203,18 @@ class Sfile:
         hh=int(basename[3:5])
         mi=int(basename[5:7])
         ss=int(basename[8:10])
-        self.filetime = datetime.datetime(yyyy,mm,dd,hh,mi,ss)
+        self.filetime = dt.datetime(yyyy,mm,dd,hh,mi,ss)
+        self.otime = self.filetime
+        self.year = yyyy
+        self.month = mm
+        self.day = dd
         if not os.path.exists(path):
             print("%s does not exist" % path)
             return
         try:
             fptr = open(path,'r') 
             row = fptr.readlines()
+            #os.system("cat %s" % path)
         except IOError:
             print("Error: The specified file does not exist - %s" % (self.path))
             raise e
@@ -179,7 +222,7 @@ class Sfile:
         # File opened ok, parse each line in a way that depends on the 80th character (line[79])
         for line in row:
             result = line.find("VOLC")
-            if line[-1] == '3' or result:
+            if line[-1] == '3' or result>-1:
                 if line[1:7]== 'ExtMag':
                     self.magnitude.append(float(line[8:12]))
                     #self.magnitude_type.append(magtype_map[line[12]])
@@ -194,7 +237,12 @@ class Sfile:
                         # We think this Sfile contains AEF information, so store it in list of aeffiles
                         if not path in _aeffiles:
                             _aeffiles.append(path)
+                            continue
+            if line.find('VOLC MBLYTBH')>-1:
+                _aeffiles.append(path)
+                continue
 
+ 
             if len(line) < 80:
                 if len(line.strip()) > 0:
                     print("Processing %s: ignoring this line: %s" % (path, line, ) )
@@ -202,9 +250,13 @@ class Sfile:
 
             if line[79] == '1':
                 if len(line[1:20].strip()) >= 14:
-                    self.year = int(line[1:5])
-                    self.month = int(line[6:8])
-                    day = int(line[8:10])
+                    try:
+                        self.year = int(line[1:5])
+                        self.month = int(line[6:8])
+                        self.day = int(line[8:10])
+                    except:
+                        print(line)
+                        barf
                     hour = int(line[11:13])
                     minute = int(line[13:15])
                     second = 0.0 # sometimes second is not defined at all, so set to 0.0 and then override with value if it exists
@@ -218,32 +270,40 @@ class Sfile:
                     if second>60: # sometimes second is like 211 which means 2.11 and not 211 seconds. usually it has a decimal point though, e.g. 1.1
                         second=second/100   
                     
-                    self.otime = datetime.datetime(self.year, self.month, day, hour, minute, int(second), 1000 * int(  (second - int(second)) * 1000) )
+                    self.otime = dt.datetime(self.year, self.month, self.day, hour, minute, int(second), 1000 * int(  (second - int(second)) * 1000) )
                 self.mainclass = line[21:23].strip()
-                if line[23:30]!="       ":
+                if line[23:30].strip():
                     self.latitude=float(line[23:30])
-                if line[30:38]!="        ":
+                if line[30:38].strip():
                     self.longitude=float(line[30:38])
-                if line[38:43]!="     ":
+                if line[38:43].strip():
                     self.depth=float(line[38:43])
                 self.z_indicator=line[43].strip()
                 self.agency=line[45:48].strip()
-                if line[48:51]!="   ":
-                    self.no_sta=int(line[48:51])
+                nostastr = line[49:51].strip()
+                if nostastr:
+                    try:
+                        self.no_sta=int(nostastr)
+                    except:
+                        print(line)
+                        print(self.otime)
+                        print(self.longitude, self.latitude, self.depth)
+                        print(nostastr)
+                        barf
                 else:
                     self.no_sta=0
-                if line[51:55]!="    ":
+                if line[51:55].strip():
                     self.rms=float(line[51:55])
-                if line[55:59] != '    ':
-                    self.magnitude.append(float(line[55:59]))
-                    #self.magnitude_type.append(magtype_map[line[59]])
-                    self.magnitude_type.append(line[59])
-                    self.magnitude_agency.append(line[60:63].strip())
-                if line[63:67].strip():
-                    
-                    print(line[63:67])
+                if line[55:59].strip():
                     try:
-
+                        self.magnitude.append(float(line[55:59]))
+                        #self.magnitude_type.append(magtype_map[line[59]])
+                        self.magnitude_type.append(line[59])
+                        self.magnitude_agency.append(line[60:63].strip())
+                    except:
+                        pass
+                if line[63:67].strip():
+                    try:
                         self.magnitude.append(float(line[63:67]))
                         #self.magnitude_type.append(magtype_map[line[67]])
                         self.magnitude_type.append(line[67])
@@ -255,11 +315,14 @@ class Sfile:
                         print(self.magnitude_type)
                         print(self.magnitude_agency)
                         print("There probably was not a second magnitude")
-                if line[71:75] != '    ':
-                    self.magnitude.append(float(line[71:75]))
-                    #self.magnitude_type.append(magtype_map[line[75]])
-                    self.magnitude_type.append(line[75])
-                    self.magnitude_agency.append(line[76:79].strip())
+                if line[71:75].strip():
+                    try:
+                        self.magnitude.append(float(line[71:75]))
+                        #self.magnitude_type.append(magtype_map[line[75]])
+                        self.magnitude_type.append(line[75])
+                        self.magnitude_agency.append(line[76:79].strip())
+                    except:
+                        pass
 #                else: #If there is an additional line1 process the additional magnitudes
 #                    if line[55:59] != '    ':
 #                        self.magnitude.append(float(line[55:59]))
@@ -297,7 +360,11 @@ class Sfile:
 
             # Process Type E line, Hyp error estimates
             if line[79] == 'E':
-                self.gap=int(line[5:8])
+                gapstr = line[5:8].strip()
+                if len(gapstr)>0:
+                    self.gap=int(gapstr)
+                else:
+                    self.gap = -1
                 self.error['origintime']=float(line[14:20])
                 self.error['latitude']=float(line[24:30].strip())
                 self.error['longitude']=float(line[32:38].strip())
@@ -328,7 +395,7 @@ class Sfile:
                 _mi=int(line[13:15])
                 _ss=int(_osec)
                 _ms=int((_osec-int(_osec))*1.e6)
-                self.otime=datetime.datetime(_yyyy, _mm, _dd, _hh, _mi, _ss, _ms)
+                self.otime=dt.datetime(_yyyy, _mm, _dd, _hh, _mi, _ss, _ms)
                 self.latitude=float(line[23:32].strip())
                 self.longitude=float(line[33:43].strip())
                 self.depth=float(line[44:52].strip())
@@ -340,25 +407,35 @@ class Sfile:
                 self.analyst = line[30:33]
                 self.id = int(line[60:74])
 
-            if line[79] == ' ' and not result:
+            #if line[79] == ' ' and not result:
+            if line[79] == ' ' and line[1] == 'M':
                 if line.strip() == '':
                     continue
-                print(line[1:5])
-                print(line)
                 asta = line[1:5].strip()
                 achan = line[5:8].strip()
                 aphase = line[8:16].strip()
-                ahour = line[18:20].strip()
-                aminute = line[20:22].strip()
+                ahour = int(line[18:20].strip())
+                aminute = int(line[20:22].strip())
                 asecond = line[22:28].strip()
                 if len(asecond)>0:
                     tmplist = asecond.split('.')
-                    asecond = tmplist[0]
-                    amillisecond = tmplist[1]
+                    asecond = int(tmplist[0])
+                    amillisecond = int(tmplist[1])
                 else:
                     asecond=0
                     amillisecond=0
-                atime = datetime.datetime(self.year, self.month, day, int(ahour), int(aminute), int(asecond), 1000 * int( amillisecond) )
+                if asecond >= 60:
+                    aminute += 1
+                    asecond -= 60
+                    if aminute >= 60:
+                        aminute -= 60
+                        ahour += 1
+                if ahour > 23:
+                    ahour -= 24
+                try:
+                    atime = dt.datetime(self.year, self.month, self.day, ahour, aminute, asecond, 1000 * amillisecond)
+                except:
+                    print(self.year, self.month, self.day, ahour, aminute, asecond)
                 if aphase == 'AMPL':
                     aamp = line[33:40].strip()
                     aper = line[40:45].strip()
@@ -367,9 +444,17 @@ class Sfile:
                 thisarrival['chan'] = achan
                 thisarrival['phase'] = aphase
                 thisarrival['time'] = atime
+                try:
+                    thisarrival['tres'] = float(line[64:68].strip())
+                    thisarrival['w'] = int(line[68:70].strip())
+                    thisarrival['dis'] = float(line[72:75].strip())
+                    thisarrival['caz'] = int(line[77:79].strip())
+                except:
+                    pass
                 if aphase == 'AMPL':
                     thisarrival['amp'] = aamp
                     thisarrival['per'] = aper
+                #print(thisarrival)
                 self.arrivals.append(thisarrival)
 
         for _aeffile in _aeffiles:
@@ -420,10 +505,14 @@ class Sfile:
             str += "\n\tArrivals:" 
             for arrival in self.arrivals:
                 str += "\n\t\t" + "%s.%s %s " % (arrival['sta'], arrival['chan'], arrival['phase']) + arrival['time'].strftime("%Y-%m-%d %H:%M:%S.%f")
+        if len(self.wavfiles)>0:
+            str += "\n\tWAV files:" 
             for wavfile in self.wavfiles:
-                str += "\n" + wavfile.__str__()
+                str += "\n\t\t" + wavfile.__str__()
+        if len(self.aeffiles)>0:
+            str += "\n\tAEF files:" 
             for aeffile in self.aeffiles:
-                str += "\n" + aeffile.__str__()
+                str += "\n\t\t" + aeffile.__str__()
 
         return str
 
@@ -483,15 +572,19 @@ class Wavfile:
         return str
 
 class SSAM:
-    def __init__(self, line, energy):
+    def __init__(self, line, energy, startindex):
         self.frequency_bands = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 30.0]
         self.percentages = list()
         self.energies = list()
-        startindex = 37
         c = 0
-        while startindex < 70:
-            self.percentages.append(int(line[startindex:startindex+2].strip()))
-            self.energies.append(self.percentages[c]/100.0 * energy)
+        #print(line[startindex:])
+        while startindex < 79 and len(self.percentages)<12:
+            ssamstr = line[startindex:startindex+3].strip()
+            #print(ssamstr) 
+            if not "." in ssamstr:
+                thisval = int(ssamstr)
+                self.percentages.append(thisval)
+                self.energies.append(thisval/100.0 * energy)
             c += 1
             startindex += 3
         return None
@@ -520,15 +613,29 @@ class AEFrow:
 
 def parse_aefline(line):
     aefrow = None
+    #print(line)
+    a_idx = line[15:22].find('A')+15 # where amplitude info starts
     # NEED TO PARSE A LINE 3 HERE FOR ELEMENTS AND THEN CREATE AN AEFROW
-    station = line[6:10].strip()
-    #print station
-    channel = line[11:14].strip()
-    #print channel
-    amplitude = float(line[16:24])
-    energy = float(line[26:34])
-    ssam = SSAM(line,energy)
-    maxf = float(line[73:78])
+    try:
+        station = line[6:10].strip()
+        channel = line[11:14].strip()
+        amplitude = float(line[a_idx+1:a_idx+9].strip())
+        energy = float(line[a_idx+11:a_idx+19].strip())
+        ssam = SSAM(line,energy,a_idx+21)
+        if a_idx < 20:
+            maxf = float(line[73:79].strip())
+        else:
+            maxf = 0.0
+    except:
+        print(line)
+        print(a_idx)
+        print(station)
+        print(channel)
+        print(amplitude)
+        print(energy)
+        print(ssam)
+        print(maxf)
+        barf
     aefrow = AEFrow(station, channel, amplitude, energy, ssam, maxf)
     return aefrow
 
@@ -565,13 +672,14 @@ class AEFfile:
                             self.aefrows.append(aefrow)
                 _i = line.find("trigger window")
                 if _i > -1:
-                    _str1 = line[_i:_i+20]
+                    _str1 = line[_i:_i+24]
                     _i2 = _str1.find('=') + _i
                     _i3 = _str1.find('s') + _i
-                    self.trigger_window = float(line[_i2+1:_i3])
+                    trigwinstr = line[_i2+1:_i3].strip()
+                    self.trigger_window = float(trigwinstr)
                 _i = line.find("average window")
                 if _i > -1:
-                    _str1 = line[_i:_i+20]
+                    _str1 = line[_i:_i+24]
                     _i2 = _str1.find('=') + _i
                     _i3 = _str1.find('s') + _i
                     self.average_window = float(line[_i2+1:_i3])
@@ -663,7 +771,7 @@ def sfilecsv_daycount(list_of_csv_files):
             mm = int(csvfile[15:17])
             start_date = date(yyyy, mm, 1)
             end_date = date(yyyy, mm+1, 1)
-            delta = timedelta(days=1)
+            delta = dt.timedelta(days=1)
             while start_date < end_date: # loop over all days in this month
                 yyyymmdd = start_date.strftime("%Y%m%d")
                 sfiledatetime = pd.to_datetime(df.datetime)
