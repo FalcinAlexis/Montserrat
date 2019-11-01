@@ -769,11 +769,12 @@ def sfilecsv_daycount(list_of_csv_files):
 
             yyyy = int(csvfile[11:15])
             mm = int(csvfile[15:17])
-            start_date = date(yyyy, mm, 1)
-            end_date = date(yyyy, mm+1, 1)
+            start_date = dt.date(yyyy, mm, 1)
+            end_date = dt.date(yyyy, mm+1, 1)
             delta = dt.timedelta(days=1)
             while start_date < end_date: # loop over all days in this month
                 yyyymmdd = start_date.strftime("%Y%m%d")
+                print(yyyymmdd)
                 sfiledatetime = pd.to_datetime(df.datetime)
                 daycat = df.loc[sfiledatetime.dt.date == start_date] # get rows just for this day
                 dayclass_hash = daycat.mainclass.value_counts() # mainclasses for this day
