@@ -1,4 +1,6 @@
+import numpy as np
 def check0andMinus1(liste):
+# function bool_good_trace = check0andMinus1(tr.data)
     liste=list(liste)
     listStr=''.join(str(i) for i in liste)
     if  "000000000000" in listStr or "-1-1-1-1-1-1-1-1" in listStr :
@@ -7,6 +9,7 @@ def check0andMinus1(liste):
         return True
 
 def signaltonoise(tr):
+# function snr, highval, lowval = signaltonoise(tr)
     # Here we just make an estimate of the signal-to-noise ratio
     #
     # Normally the trace should be pre-processed before passing to this routine, e.g.
@@ -46,6 +49,8 @@ def signaltonoise(tr):
     return (snr, highval, lowval,)
 
 def compute_metrics(tr):
+# function tr, quality_factor, snr = compute_metrics(tr)
+# This function wraps all others
     # Here we compute simple metrics on each trace and write them to NET.STA.CHAN files. 
     # These metrics are:
     #     1. duration of signal
@@ -70,6 +75,7 @@ def compute_metrics(tr):
 
  
 def clip_trace(tr):     
+# function tr = clip_trace(tr)
     # remove absurdly large values
     AMP_LIMIT = 10000000
     a = tr.data
@@ -79,6 +85,7 @@ def clip_trace(tr):
     return tr
 
 def change_last_sample(tr):
+# function tr = change_last_sample(tr)
     # For some SEISAN files from Montserrat - possibly from SEISLOG conversion,
     # the last value in the time series was always some absurdly large value
     # This sections was to change last value to be the mean of the rest
@@ -89,6 +96,7 @@ def change_last_sample(tr):
     return tr
 
 def trace_quality_factor(tr):
+# function quality_factor = trace_quality_factor(tr)
     quality_factor = 1
 
     # ignore blank trace
@@ -107,46 +115,57 @@ def trace_quality_factor(tr):
     return quality_factor
 
 def clean_trace(tr):
+# function tr = clean_trace(tr)
 
     # remove absurd values
     tr = clip_trace(tr)
 
     # Now high-pass filter, plot and compute_metrics on each trace
-    tr.filter('highpass', freq=0.5, corners=2, zerophase=True)
-    if flag_compute_metrics:
-        flag_trace_okay = compute_metrics(tr, antelopetop)
-        if not flag_trace_okay:
-            next
+    try:
+        tr.filter('highpass', freq=0.5, corners=2, zerophase=True)
+    except:
+        print('Filtering failed')
+        print(tr.stats)
 
     # remove linear trend
-    tr.detrend(type='linear')
+    try:
+        tr.detrend(type='linear')
+    except:
+        print('Detrending failed')
+        print(tr.stats)
+
     return tr
 
-def fix_nscl_montserrat(tr):
+def fix_nslc_montserrat(tr):
+# function tr = fix_nslc_montserrat(tr)
     # FIX NET, STA, LOC, CHAN CODES ###
     # fix the network, channel and location
     network = 'MV'
     tr.stats['network']=network
     sta = tr.stats['station'].strip()
     chan = tr.stats['channel'].strip()
-    if chan=='PRS' or chan=='APS':
+    if chan=='PRS' or chan[0:2]=='AP':
         chan='BDF'
     else:
         if chan[0]=='A':
            if tr.stats['location'] == 'J':
                bandcode = 'S'
-           #else:
-               #bandcode = 'B'
+           else:
+               bandcode = chan[0]
         else:
-            if chan[1]=='B':
-                bandcode = 'B'
-            else:
+            try:
+                if chan[1]=='B':
+                    bandcode = 'B'
+                else:
+                    bandcode = chan[0]
+            except:
                 bandcode = chan[0]
-            instrumentcode = 'H'
-            if len(chan)==2:
-                orientationcode = tr.stats['location']
-            else:
-                orientationcode = chan[2]
+        instrumentcode = 'H'
+        if len(chan)<3:
+            orientationcode = tr.stats['location']
+        else:
+            orientationcode = chan[2]
+                
         chan = bandcode + instrumentcode + orientationcode
 
     if chan[0]=='A':
@@ -158,4 +177,5 @@ def fix_nscl_montserrat(tr):
     return tr
 
 def swap32(i):
+# function y = swap(tr.data)
     return struct.unpack("<i", struct.pack(">i", i))[0]

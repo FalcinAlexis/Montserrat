@@ -5,13 +5,15 @@ import numpy as np
 import sys, glob, obspy.core
 import pandas as pd
 import csv
-#from datetime import date, timedelta
+import trace_quality_control as qc
 import datetime as dt
+import obspy
 SEISAN_DATA = os.environ['SEISAN_DATA']
 if not SEISAN_DATA:
     SEISAN_DATA = "./seismo"
 
-def event_list(startdate,enddate):
+def create_event_list(startdate,enddate):
+# function event_list = create_event_list(startdate, enddate)
     event_list=[]
     reapath = os.path.join(SEISAN_DATA, 'REA', DB)
     years=list(range(startdate.year,enddate.year+1))
@@ -32,6 +34,7 @@ def event_list(startdate,enddate):
     return event_list 
 
 def cat(path):
+# function str = cat(file)
     # List the file contents here
     str = ''
     try:
@@ -44,6 +47,7 @@ def cat(path):
     return str
 
 def generate_monthly_csv(mm, flag_sfiles_only=False):
+# function generate_monthly_csv(monthdirs, flag_sfiles_only)
     print("Reading %s" % mm)
     sfileslist = sorted(glob.glob(os.path.join(mm, "*")))
     if flag_sfiles_only:
@@ -59,7 +63,7 @@ def generate_monthly_csv(mm, flag_sfiles_only=False):
     if flag_sfiles_only:
         fptr.write('datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration\n') 
     else:
-        fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath,analyst\n') 
+        fptr.write('datetime,mainclass,subclass,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,sfilepath,analyst,fixedID,quality_factor,snr,highval,lowval\n') 
     for thissfile in sfileslist:
         s = Sfile(thissfile)
         if not np.isnan(s.latitude) and flag_sfiles_only:
@@ -135,12 +139,13 @@ def generate_monthly_csv(mm, flag_sfiles_only=False):
                 tmp = thiswavfile.path.split('WAV')
                 wavfile1 = 'WAV' + tmp[1]
                 for tr in st:
+                     tr2, quality_factor, snr = qc.compute_metrics(tr)
                      duration = tr.stats.npts / tr.stats.sampling_rate
-                     fptr.write("%s,%s,%s,%8.3f,%s,%3d,%6d,%02d,%s,%s,%s\n" % (s.filetime, s.mainclass, \
+                     fptr.write("%s,%s,%s,%8.3f,%s,%3d,%6d,%02d,%s,%s,%s,%s,%d,%.2f,%.2f,%.2f\n" % (s.filetime, s.mainclass, \
                          s.subclass, duration, \
                          wavfile1, \
                          tr.stats.sampling_rate, tr.stats.npts, \
-                         tracenum, tr.id, shortsfile, s.analyst ))
+                         tracenum, tr.id, shortsfile, s.analyst, tr2.id, quality_factor, snr[0], snr[1], snr[2] ))
                      tracenum += 1
             
     fptr.close()
@@ -150,6 +155,7 @@ class Sfile:
     'Base class for Sfile parameters'
 
     def __init__(self, path):
+    # class s=Sfile(file)
         mytup = path.split("REA/")
         global SEISAN_DATA
         if len(mytup)>1:
@@ -520,6 +526,7 @@ class Sfile:
         pass
 
     def maximum_magnitude(self):
+    # function mag, mtype, agency = Sfile.maximum_magnitude()
         mag = 0.0
         mtype = "NA"
         agency = "NA"
@@ -531,16 +538,19 @@ class Sfile:
         return mag,mtype,agency 
 
     def cat(self):
+    # function Sfile.cat()
         print(cat(self.path))
         return None
 
 class Wavfile:
     def __init__(self, path=None):
+    # class w = Wavfile(file)
         self.path = path.strip()
         self.st = None
         return None
 
     def plot(self):
+    # function Wavfile.plot()
         if self.st:
             self.st.plot()
         else:
@@ -549,6 +559,7 @@ class Wavfile:
         return True
 
     def mulplt(self):
+    # function Wavfile.mulplt()
         if self.st:
             self.st.mulplt()
         else:
@@ -557,6 +568,7 @@ class Wavfile:
         return True
 
     def read(self):
+    # function Wavfile.read()
         #st = None
         self.st = StreamGT()
         if os.path.exists(self.path):
@@ -573,6 +585,7 @@ class Wavfile:
 
 class SSAM:
     def __init__(self, line, energy, startindex):
+    # class SSAM(line, energy, startindex)
         self.frequency_bands = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 30.0]
         self.percentages = list()
         self.energies = list()
@@ -597,6 +610,7 @@ class SSAM:
 
 class AEFrow:
     def __init__(self, station, channel, amplitude, energy, ssam, maxf):
+    # class AEFrow(station, channel, amplitude, energy, ssam, maxf)
         self.station = station
         self.channel = channel
         self.amplitude = amplitude
@@ -612,6 +626,7 @@ class AEFrow:
         return str
 
 def parse_aefline(line):
+# function AEFrow = parse_aefline(line)
     aefrow = None
     #print(line)
     a_idx = line[15:22].find('A')+15 # where amplitude info starts
@@ -642,6 +657,7 @@ def parse_aefline(line):
 class AEFfile:
 
     def __init__(self, path=None):
+    # class AEFfile(file)
         self.aefrows = list() # each element is an AEFrow
         self.trigger_window =  None
         self.average_window = None
@@ -703,6 +719,7 @@ class AEFfile:
 
 
 def sfilecsv_daycount(list_of_csv_files):
+# function sfilecsv_daycount(list_of_csv_files)
 
     # Combine all the CSV files, and then summarize
     print('\n*************************')
@@ -802,6 +819,56 @@ def sfilecsv_daycount(list_of_csv_files):
     print(eventtype_df)
     print(analyst_df)
     return eventtype_df, analyst_df
+
+def generate_monthly_wav_csv(mm):
+# function generate_monthly_wav_csv(monthdirs)
+    print("Reading %s" % mm)
+    wavfileslist = sorted(glob.glob(os.path.join(mm, "*")))
+    outfile = mm[-13:-8] + 'wavfiles' + mm[-7:-3] + mm[-2:] + '.csv'
+    print("...Creating %s" % outfile)
+    if os.path.exists(outfile):
+        print("CSV file %s already exists. Not overwriting. If you want to overwrite then please delete from the command line" % outfile)
+        return
+    fptr = open(outfile,'w')
+    fptr.write('datetime,duration,wavfilepath,sampling_rate,npts,traceNum,traceID,fixedID,quality_factor,snr,highval,lowval\n') 
+    for thiswavfile in wavfileslist:
+        if thiswavfile.find('.png')>-1:
+            continue
+        try:
+            st = obspy.read(thiswavfile)
+        except:
+            print("Cannot read wavfile %s" % thiswavfile )
+            continue
+        tmp = thiswavfile.split('WAV')
+        shortwavfile = 'WAV' + tmp[1] 
+        basename = os.path.basename(shortwavfile)
+        pos = basename.find('S.')
+        #if pos==15: # e.g. 9610-25-1005-41
+        #    yyyy = int(basename[0:2]) + 1900
+        #elif pos==18:
+        #    yyyy = int(basename[0:4])
+        #mm=int(basename[pos-13:pos-11])
+        #dd=int(basename[pos-10:pos-8])
+        #hh=int(basename[pos-7:pos-5])
+        #mi=int(basename[pos-5:pos-3])
+        #ss=int(basename[pos-2:pos])
+        #filetime = dt.datetime(yyyy,mm,dd,hh,mi,ss)
+        tracenum = 0
+        for tr in st:
+            tracetime = tr.stats.starttime
+            tr2, quality_factor, snr = qc.compute_metrics(tr)
+            duration = tr.stats.npts / tr.stats.sampling_rate
+            fptr.write("%s,%s,%8.3f,%3d,%6d,%02d,%s,%s,%d,%.2f,%.2f,%.2f\n" \
+                %  (tracetime.datetime, \
+                    shortwavfile, \
+                    duration, \
+                    tr.stats.sampling_rate, tr.stats.npts, \
+                    tracenum, tr.id, tr2.id, \
+                    quality_factor, snr[0], snr[1], snr[2] ))
+            tracenum += 1
+            
+    fptr.close()
+
 
 if __name__ == "__main__":
     pass

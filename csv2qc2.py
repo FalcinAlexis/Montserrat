@@ -26,7 +26,7 @@ for csvfile in list_of_csv_files:
     print(nrows)
     quality_index = np.zeros(nrows)
     df['quality_index'] = quality_index
-    fixed_ids = df.traceid.tolist()
+    fixed_ids = df.traceid.tolist() # a list of all trace ids in the csvfile
 
     for i in range(nrows):
         if i % 100 == 0:
@@ -38,10 +38,11 @@ for csvfile in list_of_csv_files:
         #print(wavfilepath)
         if os.path.exists(wavfilepath):
             st = obspy.read(wavfilepath)
-            tr = st[mvocat.iloc[i].tracenum]
+            tr = st[df.iloc[i].tracenum]
             print(tr)
+            tr = qc.compute_metrics(tr)
             tr2 = fix.fix_trace_ids(tr)
-            fixed_ids[i]=tr2.id
+            fixed_ids[i]=tr2.id # fix the list
         else:
             print('does not exist')
 
