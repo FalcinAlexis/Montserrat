@@ -1,0 +1,90 @@
+datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration
+2004-02-01 01:22:50,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/01-0122-50L.S200402,gt ,WAV/MVOE_/2004/02/2004-02-01-0122-50S.MVO___014,WAV/MVOE_/2004/02/2004-02-01-0122-58S.SPN___009, 0,0, 0,  0.0
+2004-02-01 12:46:08,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/01-1246-08L.S200402,gt ,WAV/MVOE_/2004/02/2004-02-01-1246-08S.SPN___009,-, 0,0, 0,  0.0
+2004-02-01 16:16:12,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/01-1616-12L.S200402,gt ,WAV/MVOE_/2004/02/2004-02-01-1616-12S.SPN___009,-, 0,0, 0,  0.0
+2004-02-01 23:34:09,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/01-2334-09L.S200402,gt ,WAV/MVOE_/2004/02/2004-02-01-2334-09S.SPN___009,-, 0,0, 0,  0.0
+2004-02-02 11:01:01,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/02-1101-01R.S200402,gt ,WAV/MVOE_/2004/02/2004-02-02-1101-01S.SPN___009,WAV/MVOE_/2004/02/2004-02-02-1101-06S.MVO___014, 0,0, 0,  0.0
+2004-02-02 23:50:05,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/02-2350-05L.S200402,gt ,WAV/MVOE_/2004/02/2004-02-02-2350-05S.SPN___009,-, 0,0, 0,  0.0
+2004-02-03 02:48:56,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/03-0248-56R.S200402,gt ,WAV/MVOE_/2004/02/2004-02-03-0248-56S.SPN___009,-, 0,0, 0,  0.0
+2004-02-03 04:14:28,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/03-0414-28L.S200402,vab,WAV/MVOE_/2004/02/2004-02-03-0414-28S.SPN___009,-, 0,0, 0,  0.0
+2004-02-03 07:45:50,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/03-0745-50L.S200402,vab,WAV/MVOE_/2004/02/2004-02-03-0745-50S.SPN___009,-, 0,0, 0,  0.0
+2004-02-03 10:20:00,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/03-1020-00L.S200402,vab,WAV/MVOE_/2004/02/2004-02-03-1020-00S.SPN___009,-, 5,0, 0,  0.0
+2004-02-03 18:54:49,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/03-1854-49L.S200402,vab,WAV/MVOE_/2004/02/2004-02-03-1854-49S.SPN___009,-, 0,0, 0,  0.0
+2004-02-04 01:35:22,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-0135-22L.S200402,vab,WAV/MVOE_/2004/02/2004-02-04-0135-22S.SPN___009,-, 0,0, 0,  0.0
+2004-02-04 06:17:00,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-0617-00L.S200402,gil,WAV/MVOE_/2004/02/2004-02-04-0617-00S.SPN___009,-, 0,0, 0,  0.0
+2004-02-04 07:50:11,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-0750-11L.S200402,gil,WAV/MVOE_/2004/02/2004-02-04-0750-11S.SPN___009,-, 0,0, 0,  0.0
+2004-02-04 10:52:48,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-1052-48L.S200402,gil,WAV/MVOE_/2004/02/2004-02-04-1052-48S.MVO___014,-, 0,0, 0,  0.0
+2004-02-04 12:04:24,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-1204-24R.S200402,vab,WAV/MVOE_/2004/04/2004-02-04-1204-24S.MVO___014,-, 0,1, 0,  0.0
+2004-02-04 12:26:03,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/04-1226-03L.S200402,vab,WAV/MVOE_/2004/02/2004-02-04-1226-03S.MVO___014,-, 0,0, 0,  0.0
+2004-02-05 00:20:04,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/05-0020-04L.S200402,vab,WAV/MVOE_/2004/02/2004-02-05-0020-04S.MVO___014,WAV/MVOE_/2004/02/2004-02-05-0020-10S.SPN___009, 0,0, 0,  0.0
+2004-02-05 13:30:09,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/05-1330-09L.S200402,vab,WAV/MVOE_/2004/02/2004-02-05-1330-09S.SPN___009,-, 5,0, 0,  0.0
+2004-02-05 14:08:47,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/05-1408-47L.S200402,vab,WAV/MVOE_/2004/02/2004-02-05-1408-47S.SPN___009,-, 0,0, 0,  0.0
+2004-02-05 18:03:51,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/05-1803-51R.S200402,vab,WAV/MVOE_/2004/02/2004-02-05-1803-51S.MVO___014,WAV/MVOE_/2004/02/2004-02-05-1803-59S.SPN___009, 0,0, 0,  0.0
+2004-02-05 23:22:04,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/05-2322-04L.S200402,vab,WAV/MVOE_/2004/02/2004-02-05-2322-04S.MVO___014,WAV/MVOE_/2004/02/2004-02-05-2322-10S.SPN___009, 4,0, 0,  0.0
+2004-02-06 00:18:23,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-0018-23R.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-0018-23S.MVO___014,WAV/MVOE_/2004/02/2004-02-06-0018-30S.SPN___009, 0,0, 0,  0.0
+2004-02-06 01:40:51,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-0140-51L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-0140-51S.SPN___009,-, 0,0, 0,  0.0
+2004-02-06 04:59:34,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-0459-34L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-0459-34S.SPN___009,-, 0,0, 0,  0.0
+2004-02-06 06:44:56,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-0644-56L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-0644-56S.SPN___009,-, 0,0, 0,  0.0
+2004-02-06 08:47:13,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-0847-13L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-0847-13S.SPN___009,-, 0,0, 0,  0.0
+2004-02-06 10:49:56,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-1049-56L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-1049-56S.SPN___009,-, 0,0, 0,  0.0
+2004-02-06 17:56:07,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/06-1756-07L.S200402,vab,WAV/MVOE_/2004/02/2004-02-06-1756-07S.SPN___009,-, 0,0, 0,  0.0
+2004-02-07 03:39:22,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/07-0339-22R.S200402,ss ,WAV/MVOE_/2004/02/2004-02-07-0339-22S.SPN___009,WAV/MVOE_/2004/02/2004-02-07-0339-23S.MVO___014, 0,0, 0,  0.0
+2004-02-07 05:47:41,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/07-0547-41L.S200402,ss ,WAV/MVOE_/2004/02/2004-02-07-0547-41S.SPN___009,-, 0,0, 0,  0.0
+2004-02-08 15:34:06,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/08-1534-06L.S200402,vab,WAV/MVOE_/2004/02/2004-02-08-1534-06S.MVO___014,-, 0,0, 0,  0.0
+2004-02-09 13:46:49,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/09-1346-49R.S200402,vab,WAV/MVOE_/2004/02/2004-02-09-1346-49S.MVO___014,-, 0,0, 0,  0.0
+2004-02-09 17:14:23,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/09-1714-23L.S200402,vab,WAV/MVOE_/2004/02/2004-02-09-1714-23S.MVO___014,-, 0,0, 0,  0.0
+2004-02-10 07:54:45,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/10-0754-45L.S200402,vab,WAV/MVOE_/2004/02/2004-02-10-0754-45S.MVO___014,-, 0,0, 0,  0.0
+2004-02-10 12:29:35,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/10-1229-35R.S200402,vab,WAV/MVOE_/2004/02/2004-02-10-1229-35S.MVO___014,-, 0,0, 0,  0.0
+2004-02-11 08:32:56,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/11-0832-56L.S200402,vab,WAV/MVOE_/2004/02/2004-02-11-0832-56S.MVO___014,-, 0,0, 0,  0.0
+2004-02-12 06:36:22,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/12-0636-22L.S200402,vab,WAV/MVOE_/2004/02/2004-02-12-0636-22S.MVO___014,-, 4,0, 0,  0.0
+2004-02-12 17:08:56,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/12-1708-56L.S200402,vab,WAV/MVOE_/2004/02/2004-02-12-1708-56S.MVO___014,-, 0,0, 0,  0.0
+2004-02-12 20:14:29,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/12-2014-29L.S200402,vab,WAV/MVOE_/2004/02/2004-02-12-2014-29S.MVO___014,-, 0,0, 0,  0.0
+2004-02-13 13:58:38,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/13-1358-38L.S200402,vab,WAV/MVOE_/2004/02/2004-02-13-1358-38S.MVO___014,-, 0,0, 0,  0.0
+2004-02-13 21:00:05,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/13-2100-05L.S200402,vab,WAV/MVOE_/2004/02/2004-02-13-2100-05S.MVO___014,-, 0,0, 0,  0.0
+2004-02-14 12:13:10,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/14-1213-10R.S200402,vab,WAV/MVOE_/2004/02/2004-02-14-1213-10S.MVO___014,-, 0,0, 0,  0.0
+2004-02-14 17:33:46,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/14-1733-46L.S200402,vab,WAV/MVOE_/2004/02/2004-02-14-1733-46S.MVO___014,-, 4,0, 0,  0.0
+2004-02-15 10:01:27,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/15-1001-27R.S200402,vab,WAV/MVOE_/2004/02/2004-02-15-1001-27S.MVO___014,-, 0,0, 0,  0.0
+2004-02-16 03:29:54,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/16-0329-54R.S200402,vab,WAV/MVOE_/2004/02/2004-02-16-0329-54S.MVO___014,-, 0,0, 0,  0.0
+2004-02-19 08:15:14,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/19-0815-14L.S200402,vab,WAV/MVOE_/2004/02/2004-02-19-0815-14S.MVO___014,-, 0,0, 0,  0.0
+2004-02-20 17:57:39,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/20-1757-39L.S200402,vab,WAV/MVOE_/2004/02/2004-02-20-1757-39S.MVO___014,-, 0,0, 0,  0.0
+2004-02-20 18:19:26,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/20-1819-26L.S200402,vab,WAV/MVOE_/2004/02/2004-02-20-1819-26S.MVO___014,-, 0,0, 0,  0.0
+2004-02-20 23:31:03,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/20-2331-03L.S200402,vab,WAV/MVOE_/2004/02/2004-02-20-2331-03S.MVO___014,-, 5,0, 0,  0.0
+2004-02-21 02:47:06,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/21-0247-06D.S200402,vab,WAV/MVOE_/2004/02/2004-02-21-0247-06S.MVO___014,-, 0,0, 0,  0.0
+2004-02-21 06:20:01,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/21-0620-01L.S200402,vab,WAV/MVOE_/2004/02/2004-02-21-0620-01S.MVO___014,-, 0,0, 0,  0.0
+2004-02-21 15:53:19,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/21-1553-19L.S200402,vab,WAV/MVOE_/2004/02/2004-02-21-1553-19S.MVO___014,-, 0,0, 0,  0.0
+2004-02-21 19:31:06,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/21-1931-06R.S200402,vab,WAV/MVOE_/2004/02/2004-02-21-1931-06S.MVO___014,-, 0,0, 0,  0.0
+2004-02-22 03:22:44,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/22-0322-44L.S200402,vab,WAV/MVOE_/2004/02/2004-02-22-0322-44S.MVO___014,-, 0,0, 0,  0.0
+2004-02-22 12:38:11,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/22-1238-11R.S200402,vab,WAV/MVOE_/2004/02/2004-02-22-1238-11S.MVO___014,-, 0,0, 0,  0.0
+2004-02-23 02:00:35,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/23-0200-35R.S200402,vab,WAV/MVOE_/2004/02/2004-02-23-0200-35S.MVO___014,-, 0,0, 0,  0.0
+2004-02-23 10:34:43,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/23-1034-43R.S200402,vab,WAV/MVOE_/2004/02/2004-02-23-1034-43S.MVO___014,-, 0,0, 0,  0.0
+2004-02-23 21:30:20,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/23-2130-20L.S200402,vab,WAV/MVOE_/2004/02/2004-02-23-2130-20S.MVO___014,WAV/MVOE_/2004/02/2004-02-23-2130-29S.SPN___009, 5,0, 0,  0.0
+2004-02-24 02:26:26,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/24-0226-26R.S200402,vab,WAV/MVOE_/2004/02/2004-02-24-0226-26S.MVO___014,-, 0,0, 0,  0.0
+2004-02-24 14:16:53,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/24-1416-53L.S200402,vab,WAV/MVOE_/2004/02/2004-02-24-1416-53S.SPN___009,-, 0,0, 0,  0.0
+2004-02-24 15:52:03,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/24-1552-03L.S200402,vab,WAV/MVOE_/2004/02/2004-02-24-1552-03S.SPN___009,-, 0,0, 0,  0.0
+2004-02-25 10:10:12,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/25-1010-12L.S200402,vab,WAV/MVOE_/2004/02/2004-02-25-1010-12S.MVO___014,-, 0,0, 0,  0.0
+2004-02-25 15:53:02,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/25-1553-02L.S200402,vab,WAV/MVOE_/2004/02/2004-02-25-1553-02S.MVO___014,-, 0,0, 0,  0.0
+2004-02-26 05:32:59,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-0532-59L.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-0532-59S.SPN___009,-, 0,0, 0,  0.0
+2004-02-26 13:33:02,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-1333-02L.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-1333-02S.MVO___014,-, 0,0, 0,  0.0
+2004-02-26 13:53:01,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-1353-01L.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-1353-01S.MVO___014,-, 0,0, 0,  0.0
+2004-02-26 14:31:04,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-1431-04L.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-1431-04S.MVO___014,-, 0,0, 0,  0.0
+2004-02-26 17:59:32,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-1759-32L.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-1759-32S.MVO___014,-, 0,0, 0,  0.0
+2004-02-26 21:20:29,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/26-2120-29R.S200402,vab,WAV/MVOE_/2004/02/2004-02-26-2120-29S.MVO___014,WAV/MVOE_/2004/02/2004-02-26-2120-38S.SPN___009, 0,0, 0,  0.0
+2004-02-27 02:26:07,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/27-0226-07L.S200402,vab,WAV/MVOE_/2004/02/2004-02-27-0226-07S.MVO___014,WAV/MVOE_/2004/02/2004-02-27-0226-16S.SPN___009, 6,0, 0,  0.0
+2004-02-27 06:46:53,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/27-0646-53L.S200402,vab,WAV/MVOE_/2004/02/2004-02-27-0646-53S.MVO___014,WAV/MVOE_/2004/02/2004-02-27-0647-03S.SPN___009, 0,0, 0,  0.0
+2004-02-27 08:11:09,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/27-0811-09L.S200402,vab,WAV/MVOE_/2004/02/2004-02-27-0811-09S.SPN___009,-, 0,0, 0,  0.0
+2004-02-27 20:31:31,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/27-2031-31L.S200402,vab,WAV/MVOE_/2004/02/2004-02-27-2031-31S.SPN___009,-, 0,0, 0,  0.0
+2004-02-28 01:21:11,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-0121-11L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-0121-11S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-0121-20S.SPN___009, 0,0, 0,  0.0
+2004-02-28 02:24:03,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-0224-03L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-0224-03S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-0224-10S.SPN___009, 5,0, 0,  0.0
+2004-02-28 04:11:27,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-0411-27R.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-0411-27S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-0411-35S.SPN___009, 0,0, 0,  0.0
+2004-02-28 06:55:32,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-0655-32L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-0655-32S.SPN___009,-, 0,0, 0,  0.0
+2004-02-28 07:48:40,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-0748-40L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-0748-40S.SPN___009,-, 0,0, 0,  0.0
+2004-02-28 10:43:27,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-1043-27L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-1043-27S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-1043-35S.SPN___009, 0,0, 0,  0.0
+2004-02-28 15:26:15,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-1526-15L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-1526-15S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-1526-25S.SPN___009, 0,0, 0,  0.0
+2004-02-28 18:32:36,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-1832-36L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-1832-36S.MVO___014,-, 0,0, 0,  0.0
+2004-02-28 23:07:27,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/28-2307-27L.S200402,vab,WAV/MVOE_/2004/02/2004-02-28-2307-27S.MVO___014,WAV/MVOE_/2004/02/2004-02-28-2307-38S.SPN___009, 0,0, 0,  0.0
+2004-02-29 05:15:16,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-0515-16R.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-0515-16S.MVO___014,WAV/MVOE_/2004/02/2004-02-29-0515-25S.SPN___009, 8,0, 0,  0.0
+2004-02-29 10:32:49,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-1032-49L.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-1032-49S.MVO___014,-, 0,0, 0,  0.0
+2004-02-29 10:34:08,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-1034-08L.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-1034-08S.SPN___009,-, 0,0, 0,  0.0
+2004-02-29 16:38:39,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-1638-39L.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-1638-39S.MVO___014,-, 0,0, 0,  0.0
+2004-02-29 19:12:25,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-1912-25R.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-1912-25S.MVO___014,WAV/MVOE_/2004/02/2004-02-29-1912-32S.SPN___009,10,0, 0,  0.0
+2004-02-29 19:28:12,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2004/02/29-1928-12R.S200402,vab,WAV/MVOE_/2004/02/2004-02-29-1928-12S.MVO___014,WAV/MVOE_/2004/02/2004-02-29-1928-20S.SPN___009, 8,0, 0,  0.0

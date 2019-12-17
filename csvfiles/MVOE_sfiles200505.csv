@@ -1,0 +1,200 @@
+datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration
+2005-05-01 01:49:37,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/01-0149-37R.S200505,vab,WAV/MVOE_/2005/05/2005-05-01-0149-37S.MVO___025,-, 8,1, 0,  0.0
+2005-05-01 04:12:49,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/01-0412-49R.S200505,vab,WAV/MVOE_/2005/05/2005-05-01-0412-49S.MVO___025,-,11,1, 0,  0.0
+2005-05-01 13:04:07,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/01-1304-07R.S200505,vab,WAV/MVOE_/2005/05/2005-05-01-1304-07S.MVO___025,-, 0,1, 0,  0.0
+2005-05-01 13:44:36,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/01-1344-36R.S200505,vab,WAV/MVOE_/2005/05/2005-05-01-1344-36S.MVO___025,-,14,1, 0,  0.0
+2005-05-01 23:58:32,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/01-2358-32L.S200505,vab,WAV/MVOE_/2005/05/2005-05-01-2358-32S.MVO___025,-, 0,0, 0,  0.0
+2005-05-02 17:47:27,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/02-1747-27R.S200505,vab,WAV/MVOE_/2005/05/2005-05-02-1747-27S.MVO___025,-, 8,1, 0,  0.0
+2005-05-04 05:09:57,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/04-0509-57R.S200505,vab,WAV/MVOE_/2005/05/2005-05-04-0509-57S.MVO___025,-, 0,0, 0,  0.0
+2005-05-04 15:01:13,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/04-1501-13D.S200505,vab,WAV/MVOE_/2005/05/2005-05-04-1501-13S.MVO___025,-, 0,0, 0,  0.0
+2005-05-05 07:44:53,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/05-0744-53R.S200505,vab,WAV/MVOE_/2005/05/2005-05-05-0744-53S.MVO___025,-, 9,1, 0,  0.0
+2005-05-05 09:17:02,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/05-0917-02L.S200505,vab,WAV/MVOE_/2005/05/2005-05-05-0917-02S.MVO___025,-, 0,0, 0,  0.0
+2005-05-05 16:19:04,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/05-1619-04R.S200505,vab,WAV/MVOE_/2005/05/2005-05-05-1619-04S.MVO___025,-, 0,0, 0,  0.0
+2005-05-05 19:17:26,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/05-1917-26D.S200505,vab,WAV/MVOE_/2005/05/2005-05-05-1917-26S.MVO___025,-, 3,0, 0,  0.0
+2005-05-05 23:46:41,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/05-2346-41D.S200505,vab,WAV/MVOE_/2005/05/2005-05-05-2346-41S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:39:46,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0839-46L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0839-46S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:41:44,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0841-44L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0841-44S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:48:07,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0848-07L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0848-07S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:49:11,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0849-11L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0849-11S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:50:18,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0850-18L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0850-18S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 08:51:06,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-0851-06L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-0851-06S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:18:28,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1818-28L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1818-28S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:23:29,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1823-29L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1823-29S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:28:31,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1828-31L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1828-31S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:30:32,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1830-32L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1830-32S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:35:36,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1835-36L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1835-36S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:40:40,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1840-40L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1840-40S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:45:36,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1845-36L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1845-36S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:50:37,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1850-37L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1850-37S.MVO___025,-, 0,0, 0,  0.0
+2005-05-06 18:52:32,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/06-1852-32L.S200505,vab,WAV/MVOE_/2005/05/2005-05-06-1852-32S.MVO___025,-, 0,0, 0,  0.0
+2005-05-09 05:33:03,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/09-0533-03R.S200505,vab,WAV/MVOE_/2005/05/2005-05-09-0533-03S.MVO___025,-, 1,0, 0,  0.0
+2005-05-09 12:23:17,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/09-1223-17R.S200505,vab,WAV/MVOE_/2005/05/2005-05-09-1223-17S.MVO___025,-, 9,1, 0,  0.0
+2005-05-10 12:34:56,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-1234-56R.S200505,vab,WAV/MVOE_/2005/05/2005-05-10-1234-56S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 18:07:52,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-1807-52L.S200505,vab,WAV/MVOE_/2005/05/2005-05-10-1807-52S.MVO___031,-, 7,0, 0,  0.0
+2005-05-10 20:59:44,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2059-44L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2059-44S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 21:31:57,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2131-57L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2131-57S.MVO___031,-, 9,0, 0,  0.0
+2005-05-10 21:45:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2145-27L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2145-27S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 21:55:00,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2155-00L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2155-00S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 22:10:52,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2210-52L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2210-52S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 22:25:49,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2225-49L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2225-49S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 22:45:39,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2245-39R.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2245-39S.MVO___031,-, 6,0, 0,  0.0
+2005-05-10 22:52:01,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2252-01L.S200505,vab,WAV/MVOE_/2005/05/2005-05-10-2252-01S.MVO___031,-, 9,0, 0,  0.0
+2005-05-10 23:24:50,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2324-50L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2324-50S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 23:35:47,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2335-47L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2335-47S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 23:45:24,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2345-24L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2345-24S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 23:46:17,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2346-17L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2346-17S.MVO___031,-, 0,0, 0,  0.0
+2005-05-10 23:58:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/10-2358-39L.S200505,ric,WAV/MVOE_/2005/05/2005-05-10-2358-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 00:34:06,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0034-06L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-0034-06S.MVO___031,-,12,0, 0,  0.0
+2005-05-11 01:27:14,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0127-14L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-0127-14S.MVO___031,-, 9,0, 0,  0.0
+2005-05-11 01:32:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0132-27L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0132-27S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 02:00:57,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0200-57L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0200-57S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 02:21:44,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0221-44L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0221-44S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 02:23:55,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0223-55L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0223-55S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 02:53:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0253-22L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0253-22S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 02:56:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0256-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-0256-10S.MVO___031,-, 9,0, 0,  0.0
+2005-05-11 04:35:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0435-39L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0435-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 04:41:24,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0441-24L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0441-24S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 04:56:56,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0456-56L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0456-56S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 06:04:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0604-39L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0604-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 07:58:21,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0758-21L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-0758-21S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 08:01:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-0801-39L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-0801-39S.MVO___031,-, 9,0, 0,  0.0
+2005-05-11 10:05:13,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1005-13L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-1005-13S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 13:15:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1315-22L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-1315-22S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 13:20:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1320-59L.S200505,ric,WAV/MVOE_/2005/05/2005-05-11-1320-59S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 13:32:51,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1332-51L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-1332-51S.MVO___031,-, 9,0, 0,  0.0
+2005-05-11 17:07:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1707-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-1707-10S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 17:26:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1726-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-1726-10S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 18:26:09,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1826-09L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-1826-09S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 18:47:25,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-1847-25L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-1847-25S.MVO___031,-, 0,0, 0,  0.0
+2005-05-11 20:15:42,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/11-2015-42L.S200505,vab,WAV/MVOE_/2005/05/2005-05-11-2015-42S.MVO___031,-, 0,0, 0,  0.0
+2005-05-12 00:43:04,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/12-0043-04L.S200505,vab,WAV/MVOE_/2005/05/2005-05-12-0043-04S.MVO___031,-,10,0, 0,  0.0
+2005-05-12 01:00:04,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/12-0100-04L.S200505,vab,WAV/MVOE_/2005/05/2005-05-12-0100-04S.MVO___031,-, 7,0, 0,  0.0
+2005-05-12 01:22:20,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/12-0122-20L.S200505,vab,WAV/MVOE_/2005/05/2005-05-12-0122-20S.MVO___031,-,11,0, 0,  0.0
+2005-05-15 07:27:04,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/15-0727-04L.S200505,ric,WAV/MVOE_/2005/05/2005-05-15-0727-04S.MVO___031,-,12,0, 0,  0.0
+2005-05-15 08:48:35,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/15-0848-35R.S200505,vab,WAV/MVOE_/2005/05/2005-05-15-0848-35S.MVO___031,-, 8,0, 0,  0.0
+2005-05-15 09:38:46,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/15-0938-46R.S200505,vab,WAV/MVOE_/2005/05/2005-05-15-0938-46S.MVO___031,-, 0,0, 0,  0.0
+2005-05-15 13:30:42,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/15-1330-42R.S200505,vab,WAV/MVOE_/2005/05/2005-05-15-1330-42S.MVO___031,-, 0,0, 0,  0.0
+2005-05-15 18:43:58,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/15-1843-58R.S200505,vab,WAV/MVOE_/2005/05/2005-05-15-1843-58S.MVO___031,-, 0,0, 0,  0.0
+2005-05-16 04:12:51,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/16-0412-51D.S200505,vab,WAV/MVOE_/2005/05/2005-05-16-0412-51S.MVO___031,-, 0,0, 0,  0.0
+2005-05-16 04:33:28,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/16-0433-28R.S200505,vab,WAV/MVOE_/2005/05/2005-05-16-0433-28S.MVO___031,-, 0,0, 0,  0.0
+2005-05-16 19:17:20,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/16-1917-20L.S200505,vab,WAV/MVOE_/2005/05/2005-05-16-1917-20S.MVO___031,-, 0,0, 0,  0.0
+2005-05-17 02:47:41,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0247-41L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0247-41S.MVO___031,-, 0,0, 0,  0.0
+2005-05-17 02:49:56,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0249-56L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0249-56S.MVO___031,-, 0,0, 0,  0.0
+2005-05-17 02:53:05,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0253-05L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0253-05S.MVO___031,-, 0,0, 0,  0.0
+2005-05-17 02:57:25,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0257-25L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0257-25S.MVO___031,-, 0,0, 0,  0.0
+2005-05-17 03:08:44,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0308-44L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0308-44S.MVO___031,-, 9,0, 0,  0.0
+2005-05-17 03:41:24,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0341-24L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0341-24S.MVO___031,-,10,0, 0,  0.0
+2005-05-17 03:44:19,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0344-19L.S200505,ric,WAV/MVOE_/2005/05/2005-05-17-0344-19S.MVO___031,-, 9,0, 0,  0.0
+2005-05-17 03:49:50,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0349-50L.S200505,ric,WAV/MVOE_/2005/05/2005-05-17-0349-50S.MVO___031,-,11,0, 0,  0.0
+2005-05-17 04:02:12,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0402-12L.S200505,ric,WAV/MVOE_/2005/05/2005-05-17-0402-12S.MVO___031,-,11,0, 0,  0.0
+2005-05-17 04:28:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0428-28L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0428-28S.MVO___031,-, 6,0, 0,  0.0
+2005-05-17 07:11:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/17-0711-27L.S200505,vab,WAV/MVOE_/2005/05/2005-05-17-0711-27S.MVO___031,-, 0,0, 0,  0.0
+2005-05-18 04:45:38,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/18-0445-38R.S200505,vab,WAV/MVOE_/2005/05/2005-05-18-0445-38S.MVO___031,-,13,0, 0,  0.0
+2005-05-18 09:22:27,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/18-0922-27D.S200505,vab,WAV/MVOE_/2005/05/2005-05-18-0922-27S.MVO___031,-, 0,0, 0,  0.0
+2005-05-18 11:57:11,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/18-1157-11D.S200505,vab,WAV/MVOE_/2005/05/2005-05-18-1157-11S.MVO___031,-, 0,0, 0,  0.0
+2005-05-18 16:00:14,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/18-1600-14L.S200505,vab,WAV/MVOE_/2005/05/2005-05-18-1600-14S.MVO___031,-, 0,0, 0,  0.0
+2005-05-18 16:09:00,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/18-1609-00R.S200505,vab,WAV/MVOE_/2005/05/2005-05-18-1609-00S.MVO___031,-,13,0, 0,  0.0
+2005-05-19 02:14:32,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-0214-32D.S200505,vab,WAV/MVOE_/2005/05/2005-05-19-0214-32S.MVO___031,-, 0,0, 0,  0.0
+2005-05-19 13:33:06,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-1333-06R.S200505,vab,WAV/MVOE_/2005/05/2005-05-19-1333-06S.MVO___031,-, 0,0, 0,  0.0
+2005-05-19 20:13:14,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-2013-14R.S200505,vab,WAV/MVOE_/2005/05/2005-05-19-2013-14S.MVO___031,-, 7,0, 0,  0.0
+2005-05-19 20:42:04,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-2042-04R.S200505,ric,WAV/MVOE_/2005/05/2005-05-19-2042-04S.MVO___031,-, 0,0, 0,  0.0
+2005-05-19 21:55:34,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-2155-34L.S200505,vab,WAV/MVOE_/2005/05/2005-05-19-2155-34S.MVO___031,-, 0,0, 0,  0.0
+2005-05-19 22:17:16,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/19-2217-16L.S200505,vab,WAV/MVOE_/2005/05/2005-05-19-2217-16S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 08:16:11,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-0816-11L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-0816-11S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 10:44:19,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1044-19L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1044-19S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 10:57:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1057-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1057-10S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 11:45:16,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1145-16L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1145-16S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 12:11:45,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1211-45L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1211-45S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 12:33:02,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1233-02L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1233-02S.MVO___031,-,12,0, 0,  0.0
+2005-05-20 12:43:23,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1243-23L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1243-23S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 13:30:30,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1330-30L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1330-30S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 13:35:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1335-28L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1335-28S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 14:09:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1409-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1409-10S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 14:21:43,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1421-43L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1421-43S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 15:11:24,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1511-24L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1511-24S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 16:00:21,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1600-21L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1600-21S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 16:16:47,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1616-47L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1616-47S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 16:42:40,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1642-40L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1642-40S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 16:54:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1654-27L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1654-27S.MVO___031,-, 8,0, 0,  0.0
+2005-05-20 17:02:21,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1702-21L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1702-21S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 17:31:15,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1731-15L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1731-15S.MVO___031,-, 7,0, 0,  0.0
+2005-05-20 17:47:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1747-59L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1747-59S.MVO___031,-,11,0, 0,  0.0
+2005-05-20 18:43:37,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1843-37L.S200505,ric,WAV/MVOE_/2005/05/2005-05-20-1843-37S.MVO___031,-,13,0, 0,  0.0
+2005-05-20 18:52:04,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1852-04L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1852-04S.MVO___031,-,12,0, 0,  0.0
+2005-05-20 19:25:18,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-1925-18L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-1925-18S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 20:07:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2007-28L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2007-28S.MVO___031,-, 9,0, 0,  0.0
+2005-05-20 20:10:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2010-28L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2010-28S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 20:14:06,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2014-06L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2014-06S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 21:04:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2104-22L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2104-22S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 21:28:54,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2128-54L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2128-54S.MVO___031,-,13,0, 0,  0.0
+2005-05-20 21:35:42,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2135-42L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2135-42S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 21:59:08,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2159-08L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2159-08S.MVO___031,-,10,0, 0,  0.0
+2005-05-20 22:07:31,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2207-31L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2207-31S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 22:12:32,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2212-32L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2212-32S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 22:36:36,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2236-36L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2236-36S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 23:07:16,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2307-16L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2307-16S.MVO___031,-, 0,0, 0,  0.0
+2005-05-20 23:38:18,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2338-18L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2338-18S.MVO___031,-, 7,0, 0,  0.0
+2005-05-20 23:48:56,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/20-2348-56L.S200505,vab,WAV/MVOE_/2005/05/2005-05-20-2348-56S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 00:02:13,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0002-13L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0002-13S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 00:47:50,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0047-50L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0047-50S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 01:09:35,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0109-35L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0109-35S.MVO___031,-, 5,0, 0,  0.0
+2005-05-21 01:16:46,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0116-46L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0116-46S.MVO___031,-,11,0, 0,  0.0
+2005-05-21 01:58:02,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0158-02L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0158-02S.MVO___031,-,10,0, 0,  0.0
+2005-05-21 02:30:00,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0230-00L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0230-00S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 02:42:32,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0242-32L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0242-32S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 03:01:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0301-28L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0301-28S.MVO___031,-,11,0, 0,  0.0
+2005-05-21 03:39:20,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0339-20L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0339-20S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 03:42:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0342-59L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0342-59S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 04:41:46,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0441-46L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0441-46S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 04:47:57,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0447-57R.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0447-57S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 05:16:58,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0516-58D.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0516-58S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 07:04:23,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0704-23L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0704-23S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 07:16:40,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0716-40L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0716-40S.MVO___031,-, 8,0, 0,  0.0
+2005-05-21 07:38:25,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0738-25L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-0738-25S.MVO___031,-, 8,0, 0,  0.0
+2005-05-21 07:42:18,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0742-18L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0742-18S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 07:59:49,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0759-49L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0759-49S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 08:08:33,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0808-33R.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0808-33S.MVO___031,-,12,0, 0,  0.0
+2005-05-21 08:09:48,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0809-48L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0809-48S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 08:13:19,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0813-19L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0813-19S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 08:18:19,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0818-19L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0818-19S.MVO___031,-, 8,0, 0,  0.0
+2005-05-21 08:29:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0829-27L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0829-27S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 08:41:00,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0841-00L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0841-00S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 09:42:08,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-0942-08L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-0942-08S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 10:33:06,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1033-06L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1033-06S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 10:39:55,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1039-55L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1039-55S.MVO___031,-,10,0, 0,  0.0
+2005-05-21 11:25:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1125-39L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1125-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 11:40:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1140-22L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1140-22S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 12:06:49,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1206-49L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1206-49S.MVO___031,-, 7,0, 0,  0.0
+2005-05-21 12:22:31,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1222-31L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1222-31S.MVO___031,-,10,0, 0,  0.0
+2005-05-21 12:46:09,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1246-09L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1246-09S.MVO___031,-,11,0, 0,  0.0
+2005-05-21 12:47:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1247-27L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1247-27S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 13:10:15,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1310-15L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1310-15S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 13:43:50,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1343-50L.S200505,ric,WAV/MVOE_/2005/05/2005-05-21-1343-50S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 14:57:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1457-39L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1457-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 16:02:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1602-22L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1602-22S.MVO___031,-,10,0, 0,  0.0
+2005-05-21 16:29:47,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1629-47L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1629-47S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 17:02:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1702-10L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1702-10S.MVO___031,-, 8,0, 0,  0.0
+2005-05-21 17:46:03,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1746-03L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1746-03S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 18:57:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1857-39L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1857-39S.MVO___031,-, 9,0, 0,  0.0
+2005-05-21 19:16:47,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1916-47L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1916-47S.MVO___031,-, 7,0, 0,  0.0
+2005-05-21 19:30:04,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-1930-04L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-1930-04S.MVO___031,-, 0,0, 0,  0.0
+2005-05-21 20:17:17,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-2017-17L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-2017-17S.MVO___031,-,10,0, 0,  0.0
+2005-05-21 21:20:37,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-2120-37L.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-2120-37S.MVO___031,-, 8,0, 0,  0.0
+2005-05-21 23:20:39,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/21-2320-39D.S200505,vab,WAV/MVOE_/2005/05/2005-05-21-2320-39S.MVO___031,-, 0,0, 0,  0.0
+2005-05-22 00:47:56,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/22-0047-56R.S200505,vab,WAV/MVOE_/2005/05/2005-05-22-0047-56S.MVO___031,-, 9,0, 0,  0.0
+2005-05-22 10:53:29,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/22-1053-29L.S200505,ric,WAV/MVOE_/2005/05/2005-05-22-1053-29S.MVO___031,-, 0,0, 0,  0.0
+2005-05-23 03:04:14,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/23-0304-14R.S200505,vab,WAV/MVOE_/2005/05/2005-05-23-0304-14S.MVO___031,-, 0,0, 0,  0.0
+2005-05-23 11:20:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/23-1120-59L.S200505,vab,WAV/MVOE_/2005/05/2005-05-23-1120-59S.MVO___031,-, 0,0, 0,  0.0
+2005-05-23 16:00:56,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/23-1600-56R.S200505,vab,WAV/MVOE_/2005/05/2005-05-23-1600-56S.MVO___031,-, 0,0, 0,  0.0
+2005-05-24 11:22:49,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/24-1122-49R.S200505,vab,WAV/MVOE_/2005/05/2005-05-24-1122-49S.MVO___031,-, 0,0, 0,  0.0
+2005-05-24 11:23:53,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/24-1123-53R.S200505,vab,WAV/MVOE_/2005/05/2005-05-24-1123-53S.MVO___031,-, 0,0, 0,  0.0
+2005-05-25 04:41:07,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-0441-07R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-0441-07S.MVO___026,-,12,0, 0,  0.0
+2005-05-25 06:12:24,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-0612-24R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-0612-24S.MVO___026,-,12,0, 0,  0.0
+2005-05-25 14:59:31,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-1459-31R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-1459-31S.MVO___026,-,11,0, 0,  0.0
+2005-05-25 18:32:47,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-1832-47R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-1832-47S.MVO___026,-,11,0, 0,  0.0
+2005-05-25 22:49:26,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-2249-26R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-2249-26S.MVO___026,-, 9,0, 0,  0.0
+2005-05-25 23:31:07,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/25-2331-07R.S200505,vab,WAV/MVOE_/2005/05/2005-05-25-2331-07S.MVO___026,-,11,0, 0,  0.0
+2005-05-26 02:34:27,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/26-0234-27R.S200505,vab,WAV/MVOE_/2005/05/2005-05-26-0234-27S.MVO___026,-,13,0, 0,  0.0
+2005-05-26 10:27:49,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/26-1027-49D.S200505,vab,WAV/MVOE_/2005/05/2005-05-26-1027-49S.MVO___026,-, 0,0, 0,  0.0
+2005-05-31 15:16:40,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/31-1516-40R.S200505,vab,WAV/MVOE_/2005/05/2005-05-31-1516-40S.MVO___026,-,15,0, 0,  0.0
+2005-05-31 18:43:08,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2005/05/31-1843-08R.S200505,vab,WAV/MVOE_/2005/05/2005-05-31-1843-08S.MVO___026,-, 0,0, 0,  0.0

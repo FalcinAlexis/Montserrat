@@ -1,0 +1,119 @@
+datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration
+2008-03-02 13:35:41,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/02-1335-41R.S200803,vab,WAV/MVOE_/2008/03/2008-03-02-1335-41S.MVO___031,-, 0,0, 0,  0.0
+2008-03-03 14:30:41,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/03-1430-41D.S200803,sda,WAV/MVOE_/2008/03/2008-03-03-1430-41S.MVO___031,-, 0,0, 0,  0.0
+2008-03-03 17:54:32,None,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/03-1754-32L.S200803,vab,WAV/MVOE_/2008/03/2008-03-03-1754-32S.MVO___031,-,11,0, 0,  0.0
+2008-03-03 23:15:13,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/03-2315-13L.S200803,vab,WAV/MVOE_/2008/03/2008-03-03-2315-13S.MVO___031,-, 0,0, 0, 44.0
+2008-03-08 08:21:14,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/08-0821-14L.S200803,vab,WAV/MVOE_/2008/03/2008-03-08-0821-14S.MVO___031,-,15,0, 0,  0.0
+2008-03-08 08:21:58,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/08-0821-58L.S200803,vab,WAV/MVOE_/2008/03/2008-03-08-0821-58S.MVO___031,-,10,0, 0, 34.0
+2008-03-08 08:39:18,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/08-0839-18L.S200803,vab,WAV/MVOE_/2008/03/2008-03-08-0839-18S.MVO___031,-,13,0, 0,  0.0
+2008-03-09 00:10:37,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/09-0010-37R.S200803,vab,WAV/MVOE_/2008/03/2008-03-09-0010-37S.MVO___031,-,10,0, 0,  0.0
+2008-03-09 04:34:58,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/09-0434-58L.S200803,vab,WAV/MVOE_/2008/03/2008-03-09-0010-37S.MVO___031,-,11,0, 0,  0.0
+2008-03-10 06:55:46,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/10-0655-46L.S200803,vab,WAV/MVOE_/2008/03/2008-03-10-0655-46S.MVO___031,-, 9,0, 0,  0.0
+2008-03-11 05:50:01,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/11-0550-01L.S200803,vab,WAV/MVOE_/2008/03/2008-03-11-0550-01S.MVO___031,-, 0,0, 0, 52.0
+2008-03-11 08:16:07,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/11-0816-07R.S200803,vab,WAV/MVOE_/2008/03/2008-03-11-0816-07S.MVO___031,-,12,0, 0,  0.0
+2008-03-11 16:58:27,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/11-1658-27R.S200803,vab,WAV/MVOE_/2008/03/2008-03-11-1658-27S.MVO___031,-,18,0, 0,  0.0
+2008-03-13 01:02:36,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/13-0102-36R.S200803,vab,WAV/MVOE_/2008/03/2008-03-13-0102-36S.MVO___031,-,11,0, 0,  0.0
+2008-03-13 01:51:15,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/13-0151-15R.S200803,vab,WAV/MVOE_/2008/03/2008-03-13-0151-15S.MVO___031,-,14,0, 0,  0.0
+2008-03-14 01:42:09,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/14-0142-09R.S200803,vab,WAV/MVOE_/2008/03/2008-03-14-0142-09S.MVO___031,-, 0,0, 0,  0.0
+2008-03-14 11:57:29,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/14-1157-29L.S200803,vab,WAV/MVOE_/2008/03/2008-03-14-1157-29S.MVO___031,-, 0,0, 0,  0.0
+2008-03-14 14:15:13,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/14-1415-13L.S200803,vab,WAV/MVOE_/2008/03/2008-03-14-1415-13S.MVO___031,-, 0,0, 0,  0.0
+2008-03-14 19:14:06,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/14-1914-06L.S200803,vab,WAV/MVOE_/2008/03/2008-03-14-1914-06S.MVO___031,-, 0,0, 0,  0.0
+2008-03-15 07:33:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/15-0733-27L.S200803,vab,WAV/MVOE_/2008/03/2008-03-15-0733-27S.MVO___031,-,11,0, 0,  0.0
+2008-03-15 07:36:21,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/15-0736-21L.S200803,vab,WAV/MVOE_/2008/03/2008-03-15-0736-21S.MVO___031,-, 0,0, 0,  0.0
+2008-03-15 18:58:25,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/15-1858-25R.S200803,vab,WAV/MVOE_/2008/03/2008-03-15-1858-25S.MVO___031,-, 0,0, 0,  0.0
+2008-03-15 19:30:47,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/15-1930-47L.S200803,vab,WAV/MVOE_/2008/03/2008-03-15-1930-47S.MVO___031,-, 0,0, 0,  0.0
+2008-03-16 07:59:33,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/16-0759-33L.S200803,vab,WAV/MVOE_/2008/03/2008-03-15-1930-47S.MVO___031,-, 0,0, 0,  0.0
+2008-03-16 15:18:16,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/16-1518-16L.S200803,vab,WAV/MVOE_/2008/03/2008-03-16-1518-16S.MVO___031,-, 0,0, 0,  0.0
+2008-03-16 22:55:48,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/16-2255-48R.S200803,vab,WAV/MVOE_/2008/03/2008-03-16-2255-48S.MVO___031,-,13,0, 0,  0.0
+2008-03-16 23:58:47,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/16-2358-47R.S200803,vab,WAV/MVOE_/2008/03/2008-03-16-2358-47S.MVO___031,-,14,0, 0,  0.0
+2008-03-17 06:09:49,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/17-0609-49R.S200803,vab,WAV/MVOE_/2008/03/2008-03-17-0609-49S.MVO___031,-, 0,0, 0,  0.0
+2008-03-18 11:01:34,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/18-1101-34R.S200803,vab,WAV/MVOE_/2008/03/2008-03-18-1101-34S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 02:59:18,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-0259-18L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-0259-18S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 11:52:02,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1152-02L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1152-02S.MVO___031,-, 6,0, 0,  0.0
+2008-03-19 13:51:57,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1351-57L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1351-57S.MVO___031,-, 5,0, 0,  0.0
+2008-03-19 14:03:10,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1403-10L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1403-10S.MVO___031,-, 0,0, 0, 41.0
+2008-03-19 14:28:09,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1428-09L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1428-09S.MVO___031,-, 6,0, 0, 47.0
+2008-03-19 14:49:16,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1449-16L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1449-16S.MVO___031,-, 0,0, 0, 38.0
+2008-03-19 14:57:16,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1457-16L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1457-16S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 14:58:24,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1458-24L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1458-24S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 15:28:37,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1528-37L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1528-37S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 16:43:57,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1643-57L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1643-57S.MVO___031,-, 0,0, 0, 40.0
+2008-03-19 16:51:15,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1651-15L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1651-15S.MVO___031,-, 0,0, 0, 41.0
+2008-03-19 17:48:51,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1748-51L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1748-51S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 18:09:31,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1809-31L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1809-31S.MVO___031,-, 0,0, 0, 44.0
+2008-03-19 18:18:51,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1818-51L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1818-51S.MVO___031,-, 0,0, 0, 43.0
+2008-03-19 18:37:22,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1837-22L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1837-22S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 18:51:55,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1851-55L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1851-55S.MVO___031,-, 0,0, 0, 45.0
+2008-03-19 18:57:43,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1857-43L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1857-43S.MVO___031,-, 0,0, 0, 43.0
+2008-03-19 19:12:54,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1912-54L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1912-54S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 19:26:33,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1926-33L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1926-33S.MVO___031,-, 0,0, 0, 44.0
+2008-03-19 19:38:11,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-1938-11L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-1938-11S.MVO___031,-, 0,0, 0, 43.0
+2008-03-19 20:36:10,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2036-10L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2036-10S.MVO___031,-, 0,0, 0, 39.0
+2008-03-19 20:55:20,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2055-20L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2055-20S.MVO___031,-, 0,0, 0, 38.0
+2008-03-19 21:15:23,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2115-23L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2115-23S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 21:33:29,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2133-29L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2133-29S.MVO___031,-, 0,0, 0, 43.0
+2008-03-19 22:15:49,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2215-49L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2215-49S.MVO___031,-, 0,0, 0, 39.0
+2008-03-19 22:21:17,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2221-17L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2221-17S.MVO___031,-, 0,0, 0, 39.0
+2008-03-19 22:55:13,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2255-13L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2255-13S.MVO___031,-, 0,0, 0, 43.0
+2008-03-19 23:01:29,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2301-29L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2301-29S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 23:04:00,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2304-00L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2304-00S.MVO___031,-, 0,0, 0,  0.0
+2008-03-19 23:26:05,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/19-2326-05L.S200803,vab,WAV/MVOE_/2008/03/2008-03-19-2326-05S.MVO___031,-, 0,0, 0, 44.0
+2008-03-20 00:19:07,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0019-07L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0019-07S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 00:22:31,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0022-31L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0022-31S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 00:34:44,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0034-44L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0034-44S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 00:37:30,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0037-30L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0037-30S.MVO___031,-, 0,0, 0, 40.0
+2008-03-20 01:32:45,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0132-45L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0132-45S.MVO___031,-, 0,0, 0, 38.0
+2008-03-20 01:34:11,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0134-11L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0134-11S.MVO___031,-, 0,0, 0, 41.0
+2008-03-20 01:52:11,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0152-11L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0152-11S.MVO___031,-, 0,0, 0, 49.0
+2008-03-20 02:26:54,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0226-54L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0226-54S.MVO___031,-, 0,0, 0, 41.0
+2008-03-20 02:27:49,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0227-49L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0227-49S.MVO___031,-, 0,0, 0, 41.0
+2008-03-20 03:52:24,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0352-24L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0352-24S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 04:06:43,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0406-43L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0406-43S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 05:08:09,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0508-09L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0508-09S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 05:26:20,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0526-20L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0526-20S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 06:00:08,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0600-08L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0600-08S.MVO___031,-, 0,0, 0, 48.0
+2008-03-20 06:49:28,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0649-28L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0649-28S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 06:51:39,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0651-39L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0651-39S.MVO___031,-, 0,0, 0, 37.0
+2008-03-20 07:55:18,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0755-18L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0755-18S.MVO___031,-, 0,0, 0, 43.0
+2008-03-20 09:04:54,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0904-54L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0904-54S.MVO___031,-, 0,0, 0, 42.0
+2008-03-20 09:28:41,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-0928-41L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-0928-41S.MVO___031,-, 0,0, 0, 40.0
+2008-03-20 10:09:12,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1009-12L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1009-12S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 10:37:51,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1037-51L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1037-51S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 11:14:46,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1114-46L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1114-46S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 11:42:27,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1142-27L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1142-27S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 14:29:21,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1429-21L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1429-21S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 15:37:40,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1537-40L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1537-40S.MVO___031,-, 0,0, 0, 41.0
+2008-03-20 15:41:15,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1541-15L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1541-15S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 16:46:50,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1646-50L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1646-50S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 19:33:26,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-1933-26L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-1933-26S.MVO___031,-, 0,0, 0, 39.0
+2008-03-20 20:13:24,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-2013-24L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-2013-24S.MVO___031,-, 0,0, 0,  0.0
+2008-03-20 21:11:41,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/20-2111-41L.S200803,vab,WAV/MVOE_/2008/03/2008-03-20-2111-41S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 05:23:28,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-0523-28L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-0523-28S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 07:40:45,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-0740-45L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-0740-45S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 08:22:01,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-0822-01L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-0822-01S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 14:07:39,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1407-39L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1407-39S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 15:32:43,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1532-43L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1532-43S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 16:55:28,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1655-28L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1655-28S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 17:23:58,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1723-58L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1723-58S.MVO___031,-, 0,0, 0, 39.0
+2008-03-21 17:36:35,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1736-35L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1736-35S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 18:24:33,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1824-33L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1824-33S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 19:40:11,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-1940-11L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-1940-11S.MVO___031,-, 0,0, 0, 41.0
+2008-03-21 21:41:05,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-2141-05L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-2141-05S.MVO___031,-, 0,0, 0,  0.0
+2008-03-21 22:02:33,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/21-2202-33L.S200803,vab,WAV/MVOE_/2008/03/2008-03-21-2202-33S.MVO___031,-, 0,0, 0, 44.0
+2008-03-22 00:52:49,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/22-0052-49L.S200803,vab,WAV/MVOE_/2008/03/2008-03-22-0052-49S.MVO___031,-, 0,0, 0,  0.0
+2008-03-22 01:52:32,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/22-0152-32L.S200803,vab,WAV/MVOE_/2008/03/2008-03-22-0152-32S.MVO___031,-, 0,0, 0, 36.0
+2008-03-23 03:42:13,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/23-0342-13L.S200803,vab,WAV/MVOE_/2008/03/2008-03-22-0152-32S.MVO___031,-, 0,0, 0, 36.0
+2008-03-23 08:17:24,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/23-0817-24L.S200803,vab,WAV/MVOE_/2008/03/2008-03-23-0817-24S.MVO___031,-, 0,0, 0, 43.0
+2008-03-23 13:21:01,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/23-1321-01R.S200803,vab,WAV/MVOE_/2008/03/2008-03-23-1321-01S.MVO___031,-, 0,0, 0,  0.0
+2008-03-23 20:04:49,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/23-2004-49R.S200803,vab,WAV/MVOE_/2008/03/2008-03-23-2004-49S.MVO___031,-,10,0, 0,  0.0
+2008-03-24 12:26:34,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/24-1226-34R.S200803,vab,WAV/MVOE_/2008/03/2008-03-24-1226-34S.MVO___031,-, 0,0, 0,  0.0
+2008-03-24 20:32:22,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/24-2032-22L.S200803,vab,WAV/MVOE_/2008/03/2008-03-24-1226-34S.MVO___031,-, 0,0, 0,  0.0
+2008-03-26 04:15:33,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/26-0415-33L.S200803,vab,WAV/MVOE_/2008/03/2008-03-26-0415-33S.MVO___031,-, 0,0, 0,  0.0
+2008-03-26 14:30:16,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/26-1430-16R.S200803,vab,WAV/MVOE_/2008/03/2008-03-26-1430-16S.MVO___031,-, 0,0, 0,  0.0
+2008-03-27 09:47:29,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/27-0947-29D.S200803,vab,WAV/MVOE_/2008/03/2008-03-27-0947-29S.MVO___031,-, 0,0, 0,  0.0
+2008-03-27 13:00:05,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/27-1300-05L.S200803,sda,WAV/MVOE_/2008/01/2008-01-28-0417-20S.MVO___028,-, 4,0, 0, 43.0
+2008-03-28 16:58:16,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/28-1658-16R.S200803,vab,WAV/MVOE_/2008/03/2008-03-28-1658-16S.MVO___031,-, 0,0, 0,  0.0
+2008-03-29 03:21:02,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/29-0321-02D.S200803,vab,WAV/MVOE_/2008/03/2008-03-29-0321-02S.MVO___031,-, 0,0, 0,  0.0
+2008-03-30 11:39:43,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/30-1139-43R.S200803,vab,WAV/MVOE_/2008/03/2008-03-30-1139-43S.MVO___031,-, 0,0, 0,  0.0
+2008-03-31 15:24:15,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/31-1524-15R.S200803,vab,WAV/MVOE_/2008/03/2008-03-31-1524-15S.MVO___031,-, 0,0, 0,  0.0
+2008-03-31 23:05:31,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2008/03/31-2305-31R.S200803,vab,WAV/MVOE_/2008/03/2008-03-31-2305-31S.MVO___031,-, 0,0, 0,  0.0

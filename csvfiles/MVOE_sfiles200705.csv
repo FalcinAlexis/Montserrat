@@ -1,0 +1,52 @@
+datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration
+2007-05-01 03:27:54,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/01-0327-54R.S200705,vab,WAV/MVOE_/2007/05/2007-05-01-0327-54S.MVO___028,-, 0,0, 0,  0.0
+2007-05-01 17:17:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/01-1717-07L.S200705,vab,WAV/MVOE_/2007/05/2007-05-01-1717-07S.MVO___028,-, 1,0, 0, 51.0
+2007-05-01 21:37:42,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/01-2137-42R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-01-2137-42S.MVO___028,-,11,1, 0,  0.0
+2007-05-02 02:30:10,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/02-0230-10R.S200705,vab,WAV/MVOE_/2007/05/2007-05-02-0230-10S.MVO___028,-, 0,0, 0,  0.0
+2007-05-02 08:51:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/02-0851-19L.S200705,vab,WAV/MVOE_/2007/05/2007-05-02-0851-19S.MVO___028,-, 0,0, 0, 34.0
+2007-05-02 09:00:39,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/02-0900-39L.S200705,vab,WAV/MVOE_/2007/05/2007-05-02-0900-39S.MVO___028,-, 0,0, 0, 43.0
+2007-05-02 09:09:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/02-0909-55L.S200705,vab,WAV/MVOE_/2007/05/2007-05-02-0909-55S.MVO___028,-, 0,0, 0, 51.0
+2007-05-03 19:14:47,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/03-1914-47L.S200705,sda,WAV/MVOE_/2007/05/2007-05-03-1914-47S.MVO___028,-, 0,0, 0, 72.0
+2007-05-04 10:27:20,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/04-1027-20D.S200705,vab,WAV/MVOE_/2007/05/2007-05-04-1027-20S.MVO___028,-, 0,0, 0,  0.0
+2007-05-04 17:49:15,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/04-1749-15D.S200705,vab,WAV/MVOE_/2007/05/2007-05-04-1749-15S.MVO___028,-, 0,0, 0,  0.0
+2007-05-05 00:19:30,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/05-0019-30L.S200705,vab,WAV/MVOE_/2007/05/2007-05-05-0019-30S.MVO___028,-, 0,0, 0, 52.0
+2007-05-05 21:03:24,LV,e,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/05-2103-24L.S200705,vab,WAV/MVOE_/2007/05/2007-05-05-2103-24S.MVO___028,-, 0,0, 0, 59.0
+2007-05-06 04:50:14,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/06-0450-14D.S200705,vab,WAV/MVOE_/2007/05/2007-05-06-0450-14S.MVO___028,-, 0,0, 0,  0.0
+2007-05-06 05:26:07,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/06-0526-07R.S200705,vab,WAV/MVOE_/2007/05/2007-05-06-0526-07S.MVO___028,-, 0,0, 0,  0.0
+2007-05-06 14:42:20,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/06-1442-20R.S200705,vab,WAV/MVOE_/2007/05/2007-05-06-1442-20S.MVO___028,-, 0,0, 0,  0.0
+2007-05-06 15:03:10,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/06-1503-10L.S200705,vab,WAV/MVOE_/2007/05/2007-05-06-1503-10S.MVO___028,-, 0,0, 0, 64.0
+2007-05-10 09:04:34,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/10-0904-34R.S200705,vab,WAV/MVOE_/2007/05/2007-05-10-0904-34S.MVO___028,-, 0,0, 0,  0.0
+2007-05-10 09:45:45,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/10-0945-45L.S200705,vab,WAV/MVOE_/2007/05/2007-05-10-0945-45S.MVO___028,-, 0,0, 0, 35.0
+2007-05-10 10:10:26,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/10-1010-26L.S200705,vab,WAV/MVOE_/2007/05/2007-05-10-1010-26S.MVO___028,-, 0,0, 0, 50.0
+2007-05-11 02:22:13,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/11-0222-13R.S200705,vab,WAV/MVOE_/2007/05/2007-05-11-0222-13S.MVO___028,-, 0,0, 0,  0.0
+2007-05-11 07:22:54,LV,e,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/11-0722-54L.S200705,vab,WAV/MVOE_/2007/05/2007-05-11-0722-54S.MVO___028,-, 0,0, 0,104.0
+2007-05-11 16:09:58,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/11-1609-58R.S200705,gil,WAV/MVOE_/2007/05/2007-05-11-1609-58S.MVO___028,-, 1,0, 0,  0.0
+2007-05-14 05:33:29,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/14-0533-29L.S200705,gil,WAV/MVOE_/2007/05/2007-05-14-0533-29S.MVO___028,-, 0,0, 0, 56.0
+2007-05-14 16:04:41,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/14-1604-41R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-14-1604-41S.MVO___028,-, 7,1, 0,  0.0
+2007-05-14 18:16:51,LV,e,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/14-1816-51L.S200705,gil,WAV/MVOE_/2007/05/2007-05-14-1816-51S.MVO___028,-, 0,0, 0, 48.0
+2007-05-14 18:17:47,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/14-1817-47L.S200705,gil,WAV/MVOE_/2007/05/2007-05-14-1817-47S.MVO___028,-, 0,0, 0, 48.0
+2007-05-15 03:55:20,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/15-0355-20R.S200705,gil,WAV/MVOE_/2007/05/2007-05-15-0355-20S.MVO___028,-, 0,0, 0,  0.0
+2007-05-19 05:53:36,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/19-0553-36L.S200705,gil,WAV/MVOE_/2007/05/2007-05-19-0553-36S.MVO___028,-, 0,0, 0, 59.0
+2007-05-19 19:05:36,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/19-1905-36R.S200705,gil,WAV/MVOE_/2007/05/2007-05-19-1905-36S.MVO___028,-, 0,0, 0,  0.0
+2007-05-20 15:15:36,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/20-1515-36R.S200705,gil,WAV/MVOE_/2007/05/2007-05-20-1515-36S.MVO___028,-, 0,0, 0,  0.0
+2007-05-20 19:27:28,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/20-1927-28L.S200705,vab,WAV/MVOE_/2007/05/2007-05-20-1927-28S.MVO___028,-,10,0, 0, 46.0
+2007-05-23 21:31:48,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/23-2131-48R.S200705,gil,WAV/MVOE_/2007/05/2007-05-23-2131-48S.MVO___028,-, 0,0, 0,  0.0
+2007-05-24 08:49:32,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/24-0849-32R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-24-0849-32S.MVO___028,-,12,1, 0,  0.0
+2007-05-24 09:46:01,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/24-0946-01R.S200705,gil,WAV/MVOE_/2007/05/2007-05-24-0946-01S.MVO___028,-, 0,0, 0,  0.0
+2007-05-24 16:10:38,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/24-1610-38R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-24-1610-38S.MVO___028,-,11,1, 0,  0.0
+2007-05-25 16:07:21,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/25-1607-21L.S200705,gil,WAV/MVOE_/2007/05/2007-05-25-1607-21S.MVO___028,-, 0,0, 0, 89.0
+2007-05-25 23:41:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/25-2341-27L.S200705,vab,WAV/MVOE_/2007/05/2007-05-25-2341-27S.MVO___028,-,11,0, 0, 48.0
+2007-05-26 22:21:37,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/26-2221-37L.S200705,gil,WAV/MVOE_/2007/05/2007-05-26-2221-37S.MVO___028,-, 0,0, 0,108.0
+2007-05-28 07:46:18,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/28-0746-18R.S200705,gil,WAV/MVOE_/2007/05/2007-05-28-0746-18S.MVO___028,-, 0,0, 0,  0.0
+2007-05-28 18:24:35,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/28-1824-35R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-28-1824-35S.MVO___028,-,12,1, 0,  0.0
+2007-05-29 01:22:30,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/29-0122-30D.S200705,gil,WAV/MVOE_/2007/05/2007-05-29-0122-30S.MVO___028,-, 0,0, 0,  0.0
+2007-05-29 09:21:15,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/29-0921-15R.S200705,bjb,WAV/MVOE_/2007/05/2007-05-29-0921-15S.MVO___028,-,11,0, 0,  0.0
+2007-05-29 19:03:21,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/29-1903-21L.S200705,gil,WAV/MVOE_/2007/05/2007-05-29-1903-21S.MVO___028,-, 0,0, 0, 51.0
+2007-05-29 23:38:46,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/29-2338-46R.S200705,gil,WAV/MVOE_/2007/05/2007-05-29-2338-46S.MVO___028,-, 0,0, 0,  0.0
+2007-05-30 07:40:51,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/30-0740-51L.S200705,gil,WAV/MVOE_/2007/05/2007-05-30-0740-51S.MVO___028,-, 0,0, 0,120.0
+2007-05-30 15:00:42,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/30-1500-42R.S200705,gil,WAV/MVOE_/2007/05/2007-05-30-1500-42S.MVO___028,-, 0,0, 0,  0.0
+2007-05-30 18:31:24,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/30-1831-24R.S200705,gil,WAV/MVOE_/2007/05/2007-05-30-1831-24S.MVO___028,-, 0,0, 0,  0.0
+2007-05-31 11:29:15,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/31-1129-15R.S200705,gil,WAV/MVOE_/2007/05/2007-05-31-1129-15S.MVO___028,-, 0,0, 0,  0.0
+2007-05-31 19:56:46,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/31-1956-46L.S200705,gil,WAV/MVOE_/2007/05/2007-05-31-1956-46S.MVO___028,-, 0,0, 0, 44.0
+2007-05-31 20:14:13,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/31-2014-13L.S200705,gil,WAV/MVOE_/2007/05/2007-05-31-2014-13S.MVO___028,-, 0,0, 0, 43.0
+2007-05-31 23:37:31,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/2007/05/31-2337-31D.S200705,gil,WAV/MVOE_/2007/05/2007-05-31-2337-31S.MVO___028,-, 0,0, 0,  0.0

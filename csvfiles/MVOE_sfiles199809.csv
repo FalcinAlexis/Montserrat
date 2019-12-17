@@ -1,0 +1,239 @@
+datetime,mainclass,subclass,sfilepath,analyst,wavfile1,wavfile2,numarrivals,nummagnitudes,numaefrows,duration
+1998-09-01 02:29:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-0229-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-0229-55S.MVO_13_1,-, 0,0, 0, 49.0
+1998-09-01 03:06:02,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-0306-02L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-0306-02S.MVO_13_1,-, 0,0, 0, 81.0
+1998-09-01 04:49:56,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-0449-56L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-0449-56S.MVO_13_1,-, 0,0, 0, 99.0
+1998-09-01 06:35:17,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-0635-17L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-0635-17S.MVO_13_1,-, 0,0, 0, 62.0
+1998-09-01 09:28:51,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-0928-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-0928-51S.MVO_13_1,-, 0,0, 0, 67.0
+1998-09-01 13:15:18,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1315-18L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1315-18S.MVO_13_1,-, 0,0, 0, 55.0
+1998-09-01 13:29:33,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1329-33L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1329-33S.MVO_13_1,-, 0,0, 0, 62.0
+1998-09-01 15:15:41,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1515-41L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1515-41S.MVO_13_1,-, 0,0, 0, 59.0
+1998-09-01 15:46:34,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1546-34L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1546-34S.MVO_13_1,-, 0,0, 0, 26.0
+1998-09-01 16:16:45,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1616-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1616-45S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-01 16:31:31,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1631-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1631-31S.MVO_13_1,-, 0,0, 0, 25.0
+1998-09-01 16:39:34,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1639-34L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1639-34S.MVO_13_1,-, 0,0, 0, 89.0
+1998-09-01 16:52:39,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1652-39L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1652-39S.MVO_13_1,-, 0,0, 0, 65.0
+1998-09-01 17:12:57,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1712-57L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1712-57S.MVO_13_1,-, 0,0, 0, 28.0
+1998-09-01 18:22:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1822-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1822-55S.MVO_13_1,-, 0,0, 0, 73.0
+1998-09-01 18:52:25,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-1852-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-1852-25S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-01 22:30:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/01-2230-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-01-2230-19S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-02 00:43:39,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0043-39L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0043-39S.MVO_13_1,-, 0,0, 0, 87.0
+1998-09-02 03:13:45,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0313-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0313-45S.MVO_13_1,-, 0,0, 0, 30.0
+1998-09-02 04:09:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0409-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0409-19S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-02 05:07:31,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0507-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0507-31S.MVO_13_1,-, 0,0, 0, 97.0
+1998-09-02 05:33:43,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0533-43L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0533-43S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-02 06:40:41,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0640-41L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0640-41S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-02 07:14:27,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0714-27L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0714-27S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-02 08:57:12,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0857-12D.S199809,lo ,WAV/MVOE_/1998/09/9809-02-0857-12S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-02 09:15:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-0915-10L.S199809,eed,WAV/MVOE_/1998/09/9809-02-0915-10S.MVO_13_1,-,16,0, 0, 51.0
+1998-09-02 11:21:02,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-1121-02L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-1121-02S.MVO_13_1,-, 0,0, 0, 54.0
+1998-09-02 11:46:57,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-1146-57L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-1146-57S.MVO_13_1,-, 0,0, 0, 92.0
+1998-09-02 14:41:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-1441-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-1441-44S.MVO_13_1,-, 0,0, 0, 53.0
+1998-09-02 18:26:30,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/02-1826-30L.S199809,lo ,WAV/MVOE_/1998/09/9809-02-1826-30S.MVO_13_1,-, 0,0, 0, 26.0
+1998-09-03 02:33:59,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-0233-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-0233-59S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-03 03:36:09,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-0336-09L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-0336-09S.MVO_13_1,-, 0,0, 0, 26.0
+1998-09-03 05:15:20,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-0515-20R.S199809,lo ,WAV/MVOE_/1998/09/9809-03-0515-20S.MVO_13_1,-, 0,0, 0, 39.0
+1998-09-03 09:32:09,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-0932-09L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-0932-09S.MVO_13_1,-, 0,0, 0, 38.0
+1998-09-03 15:36:55,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-1536-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-1536-55S.MVO_13_1,-, 9,0, 0, 28.0
+1998-09-03 17:25:14,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-1725-14L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-1725-14S.MVO_13_1,-, 0,0, 0, 25.0
+1998-09-03 18:07:53,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-1807-53L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-1807-53S.MVO_13_1,-, 0,0, 0, 61.0
+1998-09-03 20:08:15,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-2008-15L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-2008-15S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-03 20:38:05,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-2038-05L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-2038-05S.MVO_13_1,-, 0,0, 0, 26.0
+1998-09-03 20:44:25,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-2044-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-2044-25S.MVO_13_1,-, 0,0, 0, 68.0
+1998-09-03 21:30:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/03-2130-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-03-2130-44S.MVO_13_1,-, 0,0, 0, 52.0
+1998-09-04 00:05:04,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0005-04L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0005-04S.MVO_13_1,-, 0,0, 0, 56.0
+1998-09-04 03:46:50,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0346-50L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0346-50S.MVO_13_1,-, 0,0, 0, 26.0
+1998-09-04 06:21:54,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0621-54L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0621-54S.MVO_13_1,-, 0,0, 0, 40.0
+1998-09-04 09:28:41,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0928-41L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0928-41S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-04 09:47:33,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0947-33L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0947-33S.MVO_13_1,-,10,0, 0, 53.0
+1998-09-04 09:53:29,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-0953-29L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-0953-29S.MVO_13_1,-,10,0, 0, 39.0
+1998-09-04 10:03:13,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1003-13L.S199809,eed,WAV/MVOE_/1998/09/9809-04-1003-13S.MVO_13_1,-,16,0, 0, 31.0
+1998-09-04 10:48:28,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1048-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1048-28S.MVO_13_1,-, 0,0, 0, 85.0
+1998-09-04 10:54:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1054-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1054-19S.MVO_13_1,-, 0,0, 0, 49.0
+1998-09-04 13:23:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1323-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1323-07S.MVO_13_1,-, 0,0, 0, 39.0
+1998-09-04 13:25:34,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1325-34L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1325-34S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-04 14:44:30,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1444-30L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1444-30S.MVO_13_1,-, 9,0, 0, 36.0
+1998-09-04 15:03:42,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1503-42L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1503-42S.MVO_13_1,-, 0,0, 0, 63.0
+1998-09-04 17:54:51,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1754-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1754-51S.MVO_13_1,-,10,0, 0, 63.0
+1998-09-04 18:59:16,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1859-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1859-16S.MVO_13_1,-, 0,0, 0, 38.0
+1998-09-04 19:00:06,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1900-06L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1900-06S.MVO_13_1,-, 0,0, 0, 80.0
+1998-09-04 19:24:23,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/04-1924-23L.S199809,lo ,WAV/MVOE_/1998/09/9809-04-1924-23S.MVO_13_1,-, 0,0, 0, 37.0
+1998-09-05 04:08:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/05-0408-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-05-0408-19S.MVO_13_1,-, 0,0, 0, 43.0
+1998-09-05 07:56:03,LV,n,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/05-0756-03L.S199809,lo ,WAV/MVOE_/1998/09/9809-05-0756-03S.MVO_13_1,-, 0,0, 0, 50.0
+1998-09-05 12:26:09,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/05-1226-09L.S199809,lo ,WAV/MVOE_/1998/09/9809-05-1226-09S.MVO_13_1,-, 0,0, 0, 45.0
+1998-09-05 18:13:43,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/05-1813-43L.S199809,lo ,WAV/MVOE_/1998/09/9809-05-1813-43S.MVO_13_1,-, 0,0, 0,105.0
+1998-09-05 21:26:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/05-2126-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-05-2126-07S.MVO_13_1,-, 0,0, 0, 47.0
+1998-09-06 05:16:12,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/06-0516-12L.S199809,lo ,WAV/MVOE_/1998/09/9809-06-0516-12S.MVO_13_1,-, 0,0, 0, 39.0
+1998-09-06 10:28:29,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/06-1028-29L.S199809,eed,WAV/MVOE_/1998/09/9809-06-1028-29S.MVO_13_1,-,12,0, 0, 50.0
+1998-09-06 18:13:43,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/06-1813-43L.S199809,eed,WAV/MVOE_/1998/09/9809-06-1813-43S.MVO_13_1,-, 7,0, 0, 35.0
+1998-09-06 22:36:10,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/06-2236-10R.S199809,lo ,WAV/MVOE_/1998/09/9809-06-2236-10S.MVO_13_1,-, 0,0, 0, 48.0
+1998-09-07 05:07:37,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-0507-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-0507-37S.MVO_13_1,-, 0,0, 0, 30.0
+1998-09-07 08:21:24,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-0821-24L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-0821-24S.MVO_13_1,-, 0,0, 0, 73.0
+1998-09-07 11:04:49,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-1104-49L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-1104-49S.MVO_13_1,-, 0,0, 0,106.0
+1998-09-07 13:31:09,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-1331-09L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-1331-09S.MVO_13_1,-, 0,0, 0, 73.0
+1998-09-07 17:18:07,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-1718-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-1718-07S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-07 23:52:03,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/07-2352-03L.S199809,lo ,WAV/MVOE_/1998/09/9809-07-2352-03S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-08 00:02:42,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0002-42L.S199809,eed,WAV/MVOE_/1998/09/9809-08-0002-42S.MVO_13_1,-,16,0, 0, 50.0
+1998-09-08 00:17:53,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0017-53L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0017-53S.MVO_13_1,-, 8,0, 0, 38.0
+1998-09-08 00:52:37,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0052-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0052-37S.MVO_13_1,-, 0,0, 0, 51.0
+1998-09-08 01:17:31,LV,s,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0117-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0117-31S.MVO_13_1,-, 6,0, 0, 66.0
+1998-09-08 04:17:45,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0417-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0417-45S.MVO_13_1,-, 0,0, 0, 32.0
+1998-09-08 04:57:31,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0457-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0457-31S.MVO_13_1,-, 0,0, 0, 56.0
+1998-09-08 07:59:55,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0759-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0759-55S.MVO_13_1,-, 0,0, 0, 30.0
+1998-09-08 08:34:16,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0834-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0834-16S.MVO_13_1,-, 0,0, 0, 61.0
+1998-09-08 09:29:01,LV,l,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-0929-01L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-0929-01S.MVO_13_1,-, 0,0, 0, 42.0
+1998-09-08 12:35:41,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-1235-41L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-1235-41S.MVO_13_1,-, 0,0, 0, 39.0
+1998-09-08 16:51:21,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-1651-21R.S199809,lo ,WAV/MVOE_/1998/09/9809-08-1651-21S.MVO_13_1,-,10,0, 0, 66.0
+1998-09-08 23:13:33,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/08-2313-33L.S199809,lo ,WAV/MVOE_/1998/09/9809-08-2313-33S.MVO_13_1,-, 0,0, 0, 30.0
+1998-09-09 00:12:58,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0012-58L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0012-58S.MVO_13_1,-, 0,0, 0, 27.0
+1998-09-09 02:33:09,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0233-09L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0233-09S.MVO_13_1,-, 0,0, 0, 22.0
+1998-09-09 02:38:10,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0238-10L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0238-10S.MVO_13_1,-, 0,0, 0, 28.0
+1998-09-09 04:24:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0424-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0424-44S.MVO_13_1,-, 0,0, 0, 99.0
+1998-09-09 05:54:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0554-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0554-11S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-09 06:31:15,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-0631-15L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-0631-15S.MVO_13_1,-, 0,0, 0, 53.0
+1998-09-09 12:04:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1204-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1204-25S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-09 12:36:30,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1236-30L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1236-30S.MVO_13_1,-, 0,0, 0, 45.0
+1998-09-09 12:37:05,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1237-05L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1237-05S.MVO_13_1,-, 0,0, 0, 61.0
+1998-09-09 12:38:58,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1238-58L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1238-58S.MVO_13_1,-, 0,0, 0, 38.0
+1998-09-09 14:56:46,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1456-46L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1456-46S.MVO_13_1,-, 0,0, 0, 55.0
+1998-09-09 14:59:32,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1459-32L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1459-32S.MVO_13_1,-, 0,0, 0,111.0
+1998-09-09 15:11:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1511-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1511-25S.MVO_13_1,-, 0,0, 0,116.0
+1998-09-09 16:48:00,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-1648-00L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-1648-00S.MVO_13_1,-, 0,0, 0, 75.0
+1998-09-09 21:25:22,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/09-2125-22L.S199809,lo ,WAV/MVOE_/1998/09/9809-09-2125-22S.MVO_13_1,-, 0,0, 0, 81.0
+1998-09-10 00:19:53,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/10-0019-53L.S199809,lo ,WAV/MVOE_/1998/09/9809-10-0019-53S.MVO_13_1,-, 0,0, 0, 29.0
+1998-09-10 01:21:54,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/10-0121-54L.S199809,lo ,WAV/MVOE_/1998/09/9809-10-0121-54S.MVO_13_1,-, 0,0, 0, 70.0
+1998-09-10 10:23:34,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/10-1023-34R.S199809,lo ,WAV/MVOE_/1998/09/9809-10-1023-34S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-10 12:40:54,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/10-1240-54L.S199809,lo ,WAV/MVOE_/1998/09/9809-10-1240-54S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-10 15:56:52,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/10-1556-52L.S199809,lo ,WAV/MVOE_/1998/09/9809-10-1556-52S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-11 02:42:47,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-0242-47L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-0242-47S.MVO_13_1,-, 0,0, 0, 28.0
+1998-09-11 03:36:58,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-0336-58L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-0336-58S.MVO_13_1,-, 0,0, 0, 69.0
+1998-09-11 04:16:07,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-0416-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-0416-07S.MVO_13_1,-, 0,0, 0, 49.0
+1998-09-11 08:28:49,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-0828-49L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-0828-49S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-11 11:01:28,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-1101-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-1101-28S.MVO_13_1,-, 0,0, 0, 45.0
+1998-09-11 11:56:26,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-1156-26L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-1156-26S.MVO_13_1,-, 0,0, 0, 62.0
+1998-09-11 13:59:28,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-1359-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-1359-28S.MVO_13_1,-, 0,0, 0, 56.0
+1998-09-11 14:33:20,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-1433-20L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-1433-20S.MVO_13_1,-, 0,0, 0, 54.0
+1998-09-11 18:56:37,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-1856-37R.S199809,lo ,WAV/MVOE_/1998/09/9809-11-1856-37S.MVO_13_1,-, 2,0, 0, 29.0
+1998-09-11 22:21:16,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-2221-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-2221-16S.MVO_13_1,-, 0,0, 0, 79.0
+1998-09-11 22:38:37,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/11-2238-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-11-2238-37S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-12 00:09:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0009-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0009-07S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-12 00:30:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0030-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0030-55S.MVO_13_1,-, 0,0, 0, 66.0
+1998-09-12 00:36:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0036-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0036-07S.MVO_13_1,-, 0,0, 0, 55.0
+1998-09-12 03:11:24,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0311-24L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0311-24S.MVO_13_1,-, 0,0, 0, 40.0
+1998-09-12 04:29:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0429-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0429-25S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-12 04:45:32,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0445-32L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0445-32S.MVO_13_1,-, 0,0, 0, 70.0
+1998-09-12 04:55:08,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0455-08L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0455-08S.MVO_13_1,-, 0,0, 0, 31.0
+1998-09-12 05:29:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0529-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0529-44S.MVO_13_1,-, 0,0, 0, 47.0
+1998-09-12 05:30:43,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0530-43L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0530-43S.MVO_13_1,-, 0,0, 0, 54.0
+1998-09-12 05:32:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-0532-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-0532-11S.MVO_13_1,-, 0,0, 0, 89.0
+1998-09-12 10:15:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1015-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1015-44S.MVO_13_1,-, 0,0, 0, 84.0
+1998-09-12 11:37:08,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1137-08L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1137-08S.MVO_13_1,-, 0,0, 0, 70.0
+1998-09-12 14:45:08,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1445-08L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1445-08S.MVO_13_1,-, 0,0, 0, 34.0
+1998-09-12 15:15:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1515-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1515-11S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-12 16:33:28,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1633-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1633-28S.MVO_13_1,-, 0,0, 0, 25.0
+1998-09-12 16:42:16,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1642-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1642-16S.MVO_13_1,-, 0,0, 0, 27.0
+1998-09-12 18:16:46,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-1816-46L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-1816-46S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-12 21:36:45,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/12-2136-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-12-2136-45S.MVO_13_1,-, 0,0, 0, 44.0
+1998-09-13 01:13:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0113-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0113-59S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-13 01:17:01,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0117-01L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0117-01S.MVO_13_1,-, 0,0, 0, 37.0
+1998-09-13 01:33:37,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0133-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0133-37S.MVO_13_1,-, 0,0, 0, 29.0
+1998-09-13 01:45:42,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0145-42L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0145-42S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-13 01:50:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0150-22L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0150-22S.MVO_13_1,-, 0,0, 0, 27.0
+1998-09-13 02:42:54,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0242-54L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0242-54S.MVO_13_1,-, 0,0, 0, 35.0
+1998-09-13 03:35:58,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0335-58L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0335-58S.MVO_13_1,-, 0,0, 0, 41.0
+1998-09-13 06:31:57,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0631-57L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0631-57S.MVO_13_1,-, 0,0, 0, 66.0
+1998-09-13 07:14:38,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-0714-38L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-0714-38S.MVO_13_1,-, 0,0, 0, 61.0
+1998-09-13 16:45:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-1645-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-1645-55S.MVO_13_1,-, 0,0, 0, 74.0
+1998-09-13 19:00:55,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-1900-55D.S199809,lo ,WAV/MVOE_/1998/09/9809-13-1900-55S.MVO_13_1,-,13,1, 0,121.0
+1998-09-13 21:24:44,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-2124-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-2124-44S.MVO_13_1,-, 0,0, 0, 35.0
+1998-09-13 21:52:32,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/13-2152-32L.S199809,lo ,WAV/MVOE_/1998/09/9809-13-2152-32S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-14 01:46:17,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-0146-17L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-0146-17S.MVO_13_1,-, 0,0, 0, 30.0
+1998-09-14 02:12:22,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-0212-22L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-0212-22S.MVO_13_1,-, 0,0, 0, 36.0
+1998-09-14 04:40:03,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-0440-03L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-0440-03S.MVO_13_1,-, 0,0, 0, 44.0
+1998-09-14 15:11:36,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-1511-36L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-1511-36S.MVO_13_1,-, 0,0, 0, 62.0
+1998-09-14 18:04:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-1804-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-1804-11S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-14 19:36:31,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-1936-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-1936-31S.MVO_13_1,-, 0,0, 0, 58.0
+1998-09-14 19:52:45,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-1952-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-1952-45S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-14 20:50:47,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-2050-47L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-2050-47S.MVO_13_1,-, 0,0, 0, 90.0
+1998-09-14 22:57:26,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/14-2257-26L.S199809,lo ,WAV/MVOE_/1998/09/9809-14-2257-26S.MVO_13_1,-, 0,0, 0, 34.0
+1998-09-15 04:05:58,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-0405-58D.S199809,lo ,WAV/MVOE_/1998/09/9809-15-0405-58S.MVO_13_1,-, 9,0, 0, 82.0
+1998-09-15 05:56:14,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-0556-14L.S199809,lo ,WAV/MVOE_/1998/09/9809-15-0556-14S.MVO_13_1,-, 7,0, 0, 41.0
+1998-09-15 08:55:10,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-0855-10D.S199809,lo ,WAV/MVOE_/1998/09/9809-15-0855-10S.MVO_13_1,-, 0,0, 0, 75.0
+1998-09-15 12:56:14,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-1256-14L.S199809,lo ,WAV/MVOE_/1998/09/9809-15-1256-14S.MVO_13_1,-, 0,0, 0, 68.0
+1998-09-15 18:22:37,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-1822-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-15-1822-37S.MVO_13_1,-, 0,0, 0, 36.0
+1998-09-15 18:42:32,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-1842-32L.S199809,lo ,WAV/MVOE_/1998/09/9809-15-1842-32S.MVO_13_1,-, 0,0, 0, 21.0
+1998-09-15 21:38:15,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/15-2138-15L.S199809,lo ,WAV/MVOE_/1998/09/9809-15-2138-15S.MVO_13_1,-, 0,0, 0, 86.0
+1998-09-16 02:27:20,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0227-20L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0227-20S.MVO_13_1,-, 0,0, 0, 52.0
+1998-09-16 02:30:28,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0230-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0230-28S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-16 02:33:38,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0233-38L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0233-38S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-16 03:06:13,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0306-13L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0306-13S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-16 03:36:27,D,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0336-27D.S199809,eed,WAV/MVOE_/1998/09/9809-16-0336-27S.MVO_13_1,-, 7,0, 0,121.0
+1998-09-16 08:35:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0835-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0835-59S.MVO_13_1,-, 0,0, 0, 19.0
+1998-09-16 08:53:26,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-0853-26L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-0853-26S.MVO_13_1,-, 0,0, 0, 34.0
+1998-09-16 14:44:00,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-1444-00L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-1444-00S.MVO_13_1,-, 0,0, 0, 41.0
+1998-09-16 15:58:27,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-1558-27L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-1558-27S.MVO_13_1,-, 0,0, 0, 63.0
+1998-09-16 20:03:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-2003-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-16-2003-11S.MVO_13_1,-, 0,0, 0, 94.0
+1998-09-16 22:21:30,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/16-2221-30D.S199809,lo ,WAV/MVOE_/1998/09/9809-16-2221-30S.MVO_13_1,-, 0,0, 0, 33.0
+1998-09-17 01:23:46,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0123-46L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0123-46S.MVO_13_1,-, 0,0, 0, 35.0
+1998-09-17 03:41:08,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0341-08L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0341-08S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-17 04:56:51,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0456-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0456-51S.MVO_13_1,-, 0,0, 0, 22.0
+1998-09-17 05:36:45,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0536-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0536-45S.MVO_13_1,-, 0,0, 0, 39.0
+1998-09-17 06:15:14,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0615-14L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0615-14S.MVO_13_1,-, 0,0, 0, 81.0
+1998-09-17 06:30:39,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0630-39L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0630-39S.MVO_13_1,-, 0,0, 0, 67.0
+1998-09-17 08:30:05,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0830-05L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0830-05S.MVO_13_1,-, 0,0, 0, 53.0
+1998-09-17 09:53:16,LV,h,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-0953-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-0953-16S.MVO_13_1,-, 0,0, 0, 87.0
+1998-09-17 12:07:02,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-1207-02L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-1207-02S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-17 12:47:06,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-1247-06D.S199809,lo ,WAV/MVOE_/1998/09/9809-17-1247-06S.MVO_13_1,-, 0,0, 0, 57.0
+1998-09-17 16:18:55,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-1618-55L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-1618-55S.MVO_13_1,-, 0,0, 0, 70.0
+1998-09-17 16:31:27,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-1631-27L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-1631-27S.MVO_13_1,-, 0,0, 0, 36.0
+1998-09-17 21:17:38,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-2117-38L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-2117-38S.MVO_13_1,-, 0,0, 0, 62.0
+1998-09-17 22:46:51,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-2246-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-2246-51S.MVO_13_1,-, 0,0, 0,117.0
+1998-09-17 23:17:11,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/17-2317-11L.S199809,lo ,WAV/MVOE_/1998/09/9809-17-2317-11S.MVO_13_1,-, 0,0, 0,108.0
+1998-09-18 00:22:51,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0022-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0022-51S.MVO_13_1,-, 9,0, 0, 37.0
+1998-09-18 00:23:21,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0023-21L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0023-21S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-18 01:23:04,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0123-04L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0123-04S.MVO_13_1,-, 0,0, 0, 51.0
+1998-09-18 01:26:31,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0126-31L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0126-31S.MVO_13_1,-, 0,0, 0, 38.0
+1998-09-18 04:02:45,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0402-45L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0402-45S.MVO_13_1,-, 0,0, 0, 50.0
+1998-09-18 04:29:44,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0429-44L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0429-44S.MVO_13_1,-, 0,0, 0, 23.0
+1998-09-18 05:56:50,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0556-50R.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0556-50S.MVO_13_1,-, 0,0, 0, 87.0
+1998-09-18 06:08:17,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0608-17L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0608-17S.MVO_13_1,-, 0,0, 0, 38.0
+1998-09-18 07:43:40,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0743-40R.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0743-40S.MVO_13_1,-, 0,0, 0, 25.0
+1998-09-18 08:08:06,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0808-06L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0808-06S.MVO_13_1,-, 0,0, 0, 41.0
+1998-09-18 08:28:01,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0828-01L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0828-01S.MVO_13_1,-, 0,0, 0, 27.0
+1998-09-18 09:07:19,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0907-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0907-19S.MVO_13_1,-, 0,0, 0, 21.0
+1998-09-18 09:43:38,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-0943-38L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-0943-38S.MVO_13_1,-, 0,0, 0, 28.0
+1998-09-18 11:54:49,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1154-49L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1154-49S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-18 12:38:25,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1238-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1238-25S.MVO_13_1,-, 0,0, 0, 22.0
+1998-09-18 12:39:42,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1239-42L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1239-42S.MVO_13_1,-, 0,0, 0, 24.0
+1998-09-18 13:13:17,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1313-17L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1313-17S.MVO_13_1,-, 0,0, 0, 28.0
+1998-09-18 15:24:48,D,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1524-48D.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1524-48S.MVO_13_1,-,12,0, 0,  0.0
+1998-09-18 16:05:05,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1605-05L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1605-05S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-18 16:14:38,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1614-38L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1614-38S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-18 16:36:16,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1636-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1636-16S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-18 18:47:13,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1847-13L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1847-13S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-18 19:54:33,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/18-1954-33L.S199809,lo ,WAV/MVOE_/1998/09/9809-18-1954-33S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-28 23:57:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/28-2357-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-28-2357-25S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 00:07:43,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0007-43L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0007-43S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 00:21:41,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0021-41L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0021-41S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 02:42:40,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0242-40L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0242-40S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 03:32:52,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0332-52L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0332-52S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 04:46:28,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0446-28L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0446-28S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 05:24:42,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0524-42L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0524-42S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 07:12:39,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0712-39L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0712-39S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 08:33:52,LV,e,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0833-52L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0833-52S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 09:22:49,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-0922-49L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-0922-49S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 11:47:48,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-1147-48L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-1147-48S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 11:57:07,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-1157-07L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-1157-07S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 12:35:59,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-1235-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-1235-59S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 14:36:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-1436-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-1436-25S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 17:32:03,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-1732-03L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-1732-03S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 21:35:48,LV,s,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-2135-48L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-2135-48S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-29 21:56:51,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/29-2156-51L.S199809,lo ,WAV/MVOE_/1998/09/9809-29-2156-51S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 04:55:40,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-0455-40L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-0455-40S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 05:18:19,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-0518-19L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-0518-19S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 05:26:37,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-0526-37L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-0526-37S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 08:49:25,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-0849-25L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-0849-25S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 09:17:59,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-0917-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-0917-59S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 10:18:36,R,_,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-1018-36R.S199809,lo ,WAV/MVOE_/1998/09/9809-30-1018-36S.MVO_13_1,-, 0,0, 0,121.0
+1998-09-30 10:21:16,LV,t,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-1021-16L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-1021-16S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 17:43:59,LV,s,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-1743-59L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-1743-59S.MVO_13_1,-, 0,0, 0,  0.0
+1998-09-30 21:11:18,LV,r,/home/thompsong/Desktop/Montserrat/data/seismo/REA/MVOE_/1998/09/30-2111-18L.S199809,lo ,WAV/MVOE_/1998/09/9809-30-2111-18S.MVO_13_1,-, 0,0, 0,  0.0
